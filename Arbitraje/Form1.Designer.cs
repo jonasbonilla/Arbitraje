@@ -36,10 +36,12 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             pnlArbitraje = new Panel();
+            btnConsultar = new Button();
+            txtResponse = new RichTextBox();
+            cbxBettingMarket = new ComboBox();
+            lblBettingMarket = new Label();
             cbxBookmarkers = new ComboBox();
             lblBookmarkers = new Label();
-            lblBettingMarket = new Label();
-            cbxBettingMarket = new ComboBox();
             pnlLoading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             pnlArbitraje.SuspendLayout();
@@ -117,6 +119,8 @@
             // 
             // pnlArbitraje
             // 
+            pnlArbitraje.Controls.Add(btnConsultar);
+            pnlArbitraje.Controls.Add(txtResponse);
             pnlArbitraje.Controls.Add(cbxBettingMarket);
             pnlArbitraje.Controls.Add(lblBettingMarket);
             pnlArbitraje.Controls.Add(cbxBookmarkers);
@@ -129,6 +133,46 @@
             pnlArbitraje.Name = "pnlArbitraje";
             pnlArbitraje.Size = new Size(624, 440);
             pnlArbitraje.TabIndex = 7;
+            // 
+            // btnConsultar
+            // 
+            btnConsultar.AutoSize = true;
+            btnConsultar.Location = new Point(12, 404);
+            btnConsultar.Name = "btnConsultar";
+            btnConsultar.Size = new Size(600, 25);
+            btnConsultar.TabIndex = 11;
+            btnConsultar.Text = "CONSULTAR";
+            btnConsultar.UseVisualStyleBackColor = true;
+            btnConsultar.Click += button1_Click;
+            // 
+            // txtResponse
+            // 
+            txtResponse.BorderStyle = BorderStyle.None;
+            txtResponse.Location = new Point(12, 85);
+            txtResponse.Name = "txtResponse";
+            txtResponse.Size = new Size(600, 313);
+            txtResponse.TabIndex = 10;
+            txtResponse.Text = "";
+            // 
+            // cbxBettingMarket
+            // 
+            cbxBettingMarket.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbxBettingMarket.Enabled = false;
+            cbxBettingMarket.FlatStyle = FlatStyle.Flat;
+            cbxBettingMarket.FormattingEnabled = true;
+            cbxBettingMarket.Location = new Point(380, 56);
+            cbxBettingMarket.Name = "cbxBettingMarket";
+            cbxBettingMarket.Size = new Size(232, 23);
+            cbxBettingMarket.TabIndex = 9;
+            // 
+            // lblBettingMarket
+            // 
+            lblBettingMarket.AutoSize = true;
+            lblBettingMarket.Location = new Point(284, 59);
+            lblBettingMarket.Name = "lblBettingMarket";
+            lblBettingMarket.Size = new Size(90, 15);
+            lblBettingMarket.TabIndex = 8;
+            lblBettingMarket.Text = "Betting Markets";
             // 
             // cbxBookmarkers
             // 
@@ -148,25 +192,6 @@
             lblBookmarkers.Size = new Size(71, 15);
             lblBookmarkers.TabIndex = 6;
             lblBookmarkers.Text = "Bookmarker";
-            // 
-            // lblBettingMarket
-            // 
-            lblBettingMarket.AutoSize = true;
-            lblBettingMarket.Location = new Point(284, 59);
-            lblBettingMarket.Name = "lblBettingMarket";
-            lblBettingMarket.Size = new Size(90, 15);
-            lblBettingMarket.TabIndex = 8;
-            lblBettingMarket.Text = "Betting Markets";
-            // 
-            // cbxBettingMarket
-            // 
-            cbxBettingMarket.DropDownStyle = ComboBoxStyle.DropDownList;
-            cbxBettingMarket.FlatStyle = FlatStyle.Flat;
-            cbxBettingMarket.FormattingEnabled = true;
-            cbxBettingMarket.Location = new Point(380, 56);
-            cbxBettingMarket.Name = "cbxBettingMarket";
-            cbxBettingMarket.Size = new Size(232, 23);
-            cbxBettingMarket.TabIndex = 9;
             // 
             // Form1
             // 
@@ -203,5 +228,7 @@
         private ComboBox cbxBookmarkers;
         private ComboBox cbxBettingMarket;
         private Label lblBettingMarket;
+        private Button btnConsultar;
+        private RichTextBox txtResponse;
     }
 }

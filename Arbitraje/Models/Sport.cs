@@ -2,11 +2,11 @@
 {
     public class Sport
     {
-        public string Key { get; set; }
-        public string Group { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public bool Active { get; set; }
-        public bool HasOutrights { get; set; }
+        public string key { get; set; }
+        public string group { get; set; }
+        public string title { get; set; }
+        public string description { get; set; }
+        public bool active { get; set; }
+        public bool has_outrights { get; set; }
     }
 }

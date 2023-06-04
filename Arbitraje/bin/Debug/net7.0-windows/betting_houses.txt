@@ -1,0 +1,332 @@
+[
+    {
+        "region_key": "us",
+        "bookmaker_key": "barstool",
+        "bookmaker": "Barstool Sportsbook"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "betonlineag",
+        "bookmaker": "BetOnline.ag"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "betfair",
+        "bookmaker": "Betfair Exchange"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "betmgm",
+        "bookmaker": "BetMGM"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "betrivers",
+        "bookmaker": "BetRivers"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "betus",
+        "bookmaker": "BetUS"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "bovada",
+        "bookmaker": "Bovada"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "circasports",
+        "bookmaker": "Circa Sports"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "draftkings",
+        "bookmaker": "DraftKings"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "fanduel",
+        "bookmaker": "FanDuel"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "foxbet",
+        "bookmaker": "FOX Bet"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "lowvig",
+        "bookmaker": "LowVig.ag"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "mybookieag",
+        "bookmaker": "MyBookie.ag"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "pointsbetus",
+        "bookmaker": "PointsBet (US)"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "sugarhouse",
+        "bookmaker": "SugarHouse"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "superbook",
+        "bookmaker": "SuperBook"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "twinspires",
+        "bookmaker": "TwinSpires"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "unibet_us",
+        "bookmaker": "Unibet"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "williamhill_us",
+        "bookmaker": "William Hill (Caesars)"
+    },
+    {
+        "region_key": "us",
+        "bookmaker_key": "wynnbet",
+        "bookmaker": "WynnBET"
+    },
+    {
+        "region_key": "us2",
+        "bookmaker_key": "ballybet",
+        "bookmaker": "Bally Bet"
+    },
+    {
+        "region_key": "us2",
+        "bookmaker_key": "betparx",
+        "bookmaker": "betPARX"
+    },
+    {
+        "region_key": "us2",
+        "bookmaker_key": "tipico_us",
+        "bookmaker": "Tipico"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "sport888",
+        "bookmaker": "888sport"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "betfair",
+        "bookmaker": "Betfair Exchange"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "betfair_sb_uk",
+        "bookmaker": "Betfair Sportsbook"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "betvictor",
+        "bookmaker": "Bet Victor"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "betway",
+        "bookmaker": "Betway"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "boylesports",
+        "bookmaker": "BoyleSports"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "casumo",
+        "bookmaker": "Casumo"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "coral",
+        "bookmaker": "Coral"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "ladbrokes",
+        "bookmaker": "Ladbrokes"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "leovegas",
+        "bookmaker": "LeoVegas"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "livescorebet",
+        "bookmaker": "LiveScore Bet"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "matchbook",
+        "bookmaker": "Matchbook"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "mrgreen",
+        "bookmaker": "Mr Green"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "paddypower",
+        "bookmaker": "Paddy Power"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "skybet",
+        "bookmaker": "Sky Bet"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "unibet_uk",
+        "bookmaker": "Unibet"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "virginbet",
+        "bookmaker": "Virgin Bet"
+    },
+    {
+        "region_key": "uk",
+        "bookmaker_key": "williamhill",
+        "bookmaker": "William Hill (UK)"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "onexbet",
+        "bookmaker": "1xBet"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "sport888",
+        "bookmaker": "888sport"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "betclic",
+        "bookmaker": "Betclic"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "betfair",
+        "bookmaker": "Betfair Exchange"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "betonlineag",
+        "bookmaker": "BetOnline.ag"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "betsson",
+        "bookmaker": "Betsson"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "betvictor",
+        "bookmaker": "Bet Victor"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "marathonbet",
+        "bookmaker": "Marathon Bet"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "matchbook",
+        "bookmaker": "Matchbook"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "mybookieag",
+        "bookmaker": "MyBookie.ag"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "nordicbet",
+        "bookmaker": "NordicBet"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "pinnacle",
+        "bookmaker": "Pinnacle"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "suprabets",
+        "bookmaker": "Suprabets"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "unibet_eu",
+        "bookmaker": "Unibet"
+    },
+    {
+        "region_key": "eu",
+        "bookmaker_key": "williamhill",
+        "bookmaker": "William Hill"
+    },
+    {
+        "region_key": "au",
+        "bookmaker_key": "betfair",
+        "bookmaker": "Betfair Exchange"
+    },
+    {
+        "region_key": "au",
+        "bookmaker_key": "betr",
+        "bookmaker": "Betr"
+    },
+    {
+        "region_key": "au",
+        "bookmaker_key": "bluebet",
+        "bookmaker": "BlueBet"
+    },
+    {
+        "region_key": "au",
+        "bookmaker_key": "ladbrokes",
+        "bookmaker": "Ladbrokes"
+    },
+    {
+        "region_key": "au",
+        "bookmaker_key": "neds",
+        "bookmaker": "Neds"
+    },
+    {
+        "region_key": "au",
+        "bookmaker_key": "pointsbetau",
+        "bookmaker": "PointsBet (AU)"
+    },
+    {
+        "region_key": "au",
+        "bookmaker_key": "sportsbet",
+        "bookmaker": "SportsBet"
+    },
+    {
+        "region_key": "au",
+        "bookmaker_key": "tab",
+        "bookmaker": "TAB"
+    },
+    {
+        "region_key": "au",
+        "bookmaker_key": "topsport",
+        "bookmaker": "TopSport"
+    },
+    {
+        "region_key": "au",
+        "bookmaker_key": "unibet",
+        "bookmaker": "Unibet"
+    }
+]

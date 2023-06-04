@@ -1,0 +1,32 @@
+[
+    {
+        "market_key": "h2h",
+        "market_name": "Head to head, Moneyline",
+        "description": "Bet on the winning team or player of a game (includes the draw for soccer)"
+    },
+    {
+        "market_key": "spreads",
+        "market_name": "Points spread, Handicap",
+        "description": "The spreads market as featured by a bookmaker. Bet on the winning team after a points handicap has been applied to each team"
+    },
+    {
+        "market_key": "totals",
+        "market_name": "Total points/goals, Over/Under",
+        "description": "The totals market as featured by a bookmaker. Bet on the total score of the game being above or below a threshold"
+    },
+    {
+        "market_key": "outrights",
+        "market_name": "Outrights, Futures",
+        "description": "Bet on a final outcome of a tournament or competition"
+    },
+    {
+        "market_key": "h2h_lay",
+        "market_name": "Same as h2h",
+        "description": "Bet against a h2h outcome. This market is only applicable to betting exchanges"
+    },
+    {
+        "market_key": "outrights_lay",
+        "market_name": "Same as outrights",
+        "description": "Bet against an outrights outcome. This market is only applicable to betting exchanges"
+    }
+]

@@ -2,8 +2,8 @@
 {
     public class BettingMarkets
     {
-        public string MarketKey { get; set; }
-        public string MarketNames { get; set; }
-        public string Description { get; set; }
+        public string market_key { get; set; }
+        public string market_name { get; set; }
+        public string description { get; set; }
     }
 }
