@@ -8,7 +8,8 @@
 * Para su realización usamos el API de Odds API.
 > Sports betting API covering odds from bookmakers around the world.
 
-[Disponible en: ](https://the-odds-api.com/)
+Disponible en: 
+[THE ODDs API ](https://the-odds-api.com/)
 
 ## **DEFINICIÓN**
 El arbitraje en las apuestas deportivas es una estrategia en la que se busca aprovechar las diferencias de cuotas ofrecidas por diferentes casas de apuestas para garantizar una ganancia sin importar el resultado del evento deportivo. 
