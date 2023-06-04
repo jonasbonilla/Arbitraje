@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace Arbitraje
 {
-    public partial class Form1 : Form
+    public partial class Odds : Form
     {
         string apiKey = "3f415e1e00c15eea72cf0cf501ac225a";
         string baseUrl = "https://api.the-odds-api.com/v4";
@@ -14,7 +14,7 @@ namespace Arbitraje
         List<BettingMarkets> _marcadores;
         List<Game> _juegos;
 
-        public Form1()
+        public Odds()
         {
             InitializeComponent();
             pnlLoading.BringToFront();

@@ -1,6 +1,6 @@
 ﻿namespace Arbitraje
 {
-    partial class Form1
+    partial class Odds
     {
         /// <summary>
         ///  Required designer variable.

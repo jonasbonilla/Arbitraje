@@ -16,5 +16,5 @@ C:\Users\Jonas\source\repos\Arbitraje\Arbitraje\obj\Debug\net7.0-windows\Arbitra
 C:\Users\Jonas\source\repos\Arbitraje\Arbitraje\obj\Debug\net7.0-windows\ref\Arbitraje.dll
 C:\Users\Jonas\source\repos\Arbitraje\Arbitraje\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
 C:\Users\Jonas\source\repos\Arbitraje\Arbitraje\obj\Debug\net7.0-windows\Arbitraje.csproj.CopyComplete
-C:\Users\Jonas\source\repos\Arbitraje\Arbitraje\obj\Debug\net7.0-windows\Arbitraje.Form1.resources
 C:\Users\Jonas\source\repos\Arbitraje\Arbitraje\obj\Debug\net7.0-windows\Arbitraje.Properties.Resources.resources
+C:\Users\Jonas\source\repos\Arbitraje\Arbitraje\obj\Debug\net7.0-windows\Arbitraje.Odds.resources
