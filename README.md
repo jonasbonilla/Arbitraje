@@ -43,9 +43,7 @@ Si el equipo A gana, ganamos $220 en la Casa 2, pero perdemos $100 en la Casa 1,
 
 Si el equipo B gana o hay un empate, perdemos los $100 apostados en la Casa 2, pero ganamos $100 * 2.5 = $250 en la Casa 1, lo que también nos da una ganancia de $120.
 
-**En ambos casos, hemos asegurado una ganancia de $120 sin importar el resultado del partido.**
-
-
+### **En ambos casos, hemos asegurado una ganancia de $120 sin importar el resultado del partido.**
 
 ***Esta app se basa en encontrar discrepancias en las cuotas para obtener una ventaja matemática.***
 **Nota:** El arbitraje puede requerir tiempo, conocimiento y acceso a múltiples casas de apuestas para ser efectivo.
