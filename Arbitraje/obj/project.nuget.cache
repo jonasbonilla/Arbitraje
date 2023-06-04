@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8WMd6dPylowO05bMZ41jemK+EW0BXP2VMSSduR0zHGrrFZRjGb+VT5+B+CspMD8FVB01LD5ficbQo9zQBdQGjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jonas\\source\\repos\\Arbitraje\\Arbitraje\\Arbitraje.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jonas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
