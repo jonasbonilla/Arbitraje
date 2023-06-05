@@ -1,5 +1,6 @@
 using Arbitraje.Models;
 using Newtonsoft.Json;
+using System.Diagnostics;
 
 namespace Arbitraje
 {
@@ -87,10 +88,11 @@ namespace Arbitraje
                 MessageBox.Show("Error al obtenrer lista de juegos");
                 return;
             }
-
+            
             // games by bookmarket
             var selectedBookmaker = _casasDeApuestas.Find(x => x.bookmaker_key == cbxBookmarkers.SelectedValue.ToString());
             var hoy = DateTime.Now;
+            txtResponse.Clear();
 
             // obtiene todos los juegos cuyo bookmaker sea "xxx", conserva el unico bookmaker "xxx" 
             var gamesFromBookmaker = _juegos
@@ -151,10 +153,15 @@ namespace Arbitraje
             }
 
             // presento eventos
+            // Create an instance of the ArbitrageCalculator class
+            //var calculator = new ArbitrageCalculator();
+            var arbFinder = new ArbitrageOpportunityFinder();
 
             txtResponse.AppendText($"---------------------------------\n");
             foreach (FootballEvent evento in eventos)
             {
+                //calculator.AddFootballEvent(evento);
+
                 txtResponse.AppendText($"Bookmaker: {evento.Bookmaker}\n");
                 txtResponse.AppendText($"{evento.HomeTeam} vs. {evento.AwayTeam}\n");
                 txtResponse.AppendText($"HomeOdds: {evento.HomeOdds}\n");
@@ -163,6 +170,22 @@ namespace Arbitraje
                 txtResponse.AppendText("\n\n");
             }
 
+            // Perform arbitrage
+            //calculator.PerformArbitrage();
+            var bestOpportunity = arbFinder.FindBestOpportunity(eventos);
+            if (bestOpportunity != null)
+            {
+                txtResponse.AppendText($"--------------- Best opportunity found at {bestOpportunity.Bookmaker}:\n");
+                txtResponse.AppendText($"Home Team: {bestOpportunity.HomeTeam}\n");
+                txtResponse.AppendText($"Away Team: {bestOpportunity.AwayTeam}\n");
+                txtResponse.AppendText($"Home Odds: {bestOpportunity.HomeOdds}\n");
+                txtResponse.AppendText($"Draw Odds: {bestOpportunity.DrawOdds}\n");
+                txtResponse.AppendText($"Away Odds: {bestOpportunity.AwayOdds}\n");
+            }
+            else
+            {
+                txtResponse.AppendText("--------------- No arbitrage opportunities found.");
+            }
         }
 
         private async Task<List<BettingHouse>> GetBettingHouses()
