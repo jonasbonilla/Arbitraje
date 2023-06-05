@@ -90,15 +90,9 @@ namespace Arbitraje
 
             // games by bookmarket
             var selectedBookmaker = _casasDeApuestas.Find(x => x.bookmaker_key == cbxBookmarkers.SelectedValue.ToString());
-
-            // obtiene todos los juegos cuyo bookmaker sea "xxx", la lista incluye todos los bookmaker
-            //var gamesFromBookmaker = _juegos.Where(game => game.bookmakers.Any(bookmaker => bookmaker.key == selectedBookmaker.bookmaker_key))
-            //.ToList();
-
             var hoy = DateTime.Now;
 
-            // obtiene todos los juegos cuyo bookmaker sea "xxx", conserva el unico bookmaker "xxx"
-            // de hoy 
+            // obtiene todos los juegos cuyo bookmaker sea "xxx", conserva el unico bookmaker "xxx" 
             var gamesFromBookmaker = _juegos
                 .Select(game => new Game
                 {
@@ -109,37 +103,64 @@ namespace Arbitraje
                     home_team = game.home_team,
                     away_team = game.away_team,
                     bookmakers = game.bookmakers
-                        .Where(bookmaker => bookmaker.key == selectedBookmaker.bookmaker_key)
+                        .Where(bookmaker => bookmaker.key == selectedBookmaker.bookmaker_key || bookmaker.key == "betfair" || bookmaker.key == "betsson")
                         .ToList()
                 })
                 .Where(game => game.bookmakers.Any() && game.commence_time <= new DateTime(hoy.Year, hoy.Month, 6, 23, 59, 59))
                 .ToList();
+            //var json = JsonConvert.SerializeObject(gamesFromBookmaker);
 
-
+            // eventos de futbol 
+            var eventos = new List<FootballEvent>();
+            
             // Mostrar los juegos filtrados (todo)
-            foreach (var game in gamesFromBookmaker)
+            foreach (Game game in gamesFromBookmaker)
             {
                 txtResponse.AppendText($"ID: {game.id}\n");
                 txtResponse.AppendText($"Home Team: {game.home_team}\n");
                 txtResponse.AppendText($"Away Team: {game.away_team}\n");
                 txtResponse.AppendText($"Commence Time: {game.commence_time}\n");
                 txtResponse.AppendText("\n");
-                foreach (var bookmaker in game.bookmakers)
+                foreach (Bookmaker bookmaker in game.bookmakers)
                 { 
-                    foreach (var market in bookmaker.markets)
+                    foreach (Market market in bookmaker.markets)
                     { 
                         txtResponse.AppendText($"    Key: {cbxBettingMarket.Text}\n"); // market.key
                         txtResponse.AppendText($"    Last Update: {market.last_update}\n");
                         txtResponse.AppendText("    Outcomes:\n");
-                        foreach (var outcome in market.outcomes)
+                        foreach (Outcome outcome in market.outcomes)
                         {
                             txtResponse.AppendText($"      Name: {outcome.name}\n");
                             txtResponse.AppendText($"      Price: {outcome.price}\n");
                         }
                     }
-                }
 
-                txtResponse.AppendText("\n\n\n");
+                    // llenar eventos
+                    eventos.Add(new FootballEvent
+                    {
+                        Bookmaker = bookmaker.key,
+                        HomeTeam = game.home_team,
+                        AwayTeam = game.away_team,
+                        HomeOdds = bookmaker.markets.Find(x=> x.key == "h2h").outcomes.Find(x => x.name == game.home_team).price,
+                        AwayOdds = bookmaker.markets.Find(x => x.key == "h2h").outcomes.Find(x => x.name == game.away_team).price,
+                        DrawOdds = bookmaker.markets.Find(x => x.key == "h2h").outcomes.Find(x => x.name == "Draw").price,
+
+                    });
+                }
+                txtResponse.AppendText("\n\n\n"); 
+            }
+
+            // presento eventos
+
+            txtResponse.AppendText($"---------------------------------\n");
+            foreach (FootballEvent evento in eventos)
+            {
+                txtResponse.AppendText($"Bookmaker: {evento.Bookmaker}\n");
+                txtResponse.AppendText($"{evento.HomeTeam} vs. {evento.AwayTeam}\n");
+                txtResponse.AppendText($"HomeOdds: {evento.HomeOdds}\n");
+                txtResponse.AppendText($"AwayOdds: {evento.AwayOdds}\n");
+                txtResponse.AppendText($"DrawOdds: {evento.DrawOdds}\n");
+                txtResponse.AppendText("\n\n");
             }
 
         }
