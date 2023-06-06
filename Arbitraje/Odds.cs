@@ -121,10 +121,19 @@ namespace Arbitraje
 
             // eventos de futbol 
             var eventos = new List<FootballEvent>();
+            var homeaux = string.Empty;
+            var awayeaux = string.Empty;
 
             // Mostrar los juegos filtrados (todo)
             foreach (Game game in gamesFromBookmaker)
             {
+                // primer evento
+                if (string.IsNullOrEmpty(homeaux) && string.IsNullOrEmpty(awayeaux))
+                {
+                    homeaux = game.home_team.Trim();
+                    awayeaux = game.away_team.Trim();
+                }
+
                 //txtResponse.AppendText($"ID: {game.id}\n");
                 //txtResponse.AppendText($"Home Team: {game.home_team}\n");
                 //txtResponse.AppendText($"Away Team: {game.away_team}\n");
@@ -144,17 +153,22 @@ namespace Arbitraje
                     //    }
                     //}
 
+
                     // llenar eventos
-                    eventos.Add(new FootballEvent
+                    if (homeaux == game.home_team.Trim() && awayeaux == game.away_team.Trim())
                     {
-                        Bookmaker = bookmaker.key,
-                        CommenceTime = game.commence_time,
-                        HomeTeam = game.home_team,
-                        AwayTeam = game.away_team,
-                        HomeOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == game.home_team).price,
-                        AwayOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == game.away_team).price,
-                        DrawOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == "Draw").price,
-                    });
+                        eventos.Add(new FootballEvent
+                        {
+                            Bookmaker = bookmaker.key,
+                            CommenceTime = game.commence_time,
+                            HomeTeam = game.home_team.Trim(),
+                            AwayTeam = game.away_team.Trim(),
+                            HomeOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == game.home_team.Trim()).price,
+                            AwayOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == game.away_team.Trim()).price,
+                            DrawOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == "Draw").price,
+                        });
+                    }
+
                 }
                 //txtResponse.AppendText("\n\n\n"); 
             }
@@ -170,8 +184,8 @@ namespace Arbitraje
                 txtResponse.AppendText($"{evento.Bookmaker.ToUpper()} - {evento.CommenceTime.ToLongDateString()} / {evento.CommenceTime.ToLongTimeString()} \n");
                 txtResponse.AppendText($"{evento.HomeTeam} vs. {evento.AwayTeam}\n");
                 txtResponse.AppendText($"HomeOdds: {evento.HomeOdds}\n");
-                txtResponse.AppendText($"AwayOdds: {evento.AwayOdds}\n");
                 txtResponse.AppendText($"DrawOdds: {evento.DrawOdds}\n");
+                txtResponse.AppendText($"AwayOdds: {evento.AwayOdds}\n");
                 txtResponse.AppendText("\n\n");
             }
 
@@ -200,9 +214,13 @@ namespace Arbitraje
             // Se asume un capital inicial de $100.
 
             pnlLoading.Visible = true;
-            var result = await CalculateArbitrage(eventos, 100m);
+            var resultp = await ShowProbabilities(eventos);
+            txtResponse.AppendText(resultp);
+
+            var resulta = await CalculateArbitrage(eventos, 100m);
+            txtResponse.AppendText(resulta);
+
             pnlLoading.Visible = false;
-            txtResponse.AppendText(result);
         }
 
         private async Task<List<BettingHouse>> GetBettingHouses()
@@ -307,29 +325,45 @@ namespace Arbitraje
             return result;
         }
 
+
+
+
+
+        private async Task<string> ShowProbabilities(List<FootballEvent> bets)
+        {
+            var response = $"\nProbabilidades calculadas (H2H): --------------------------------\n";
+            foreach (var bet in bets)
+            {
+                decimal probability = 1 / (1 + bet.HomeOdds / bet.AwayOdds);
+                response+=$"Bookmaker: {bet.Bookmaker}\n";
+                response += $"Probabilidad: {probability:P2}\n";
+            }
+            return response;
+        }
+
         private async Task<string> CalculateArbitrage(List<FootballEvent> bets, decimal capital)
         {
             var response = string.Empty;
 
-            //var totalProbabilities = 0m;
-            //var probabilities = new decimal[bets.Count];
-            //var betAmounts = new decimal[bets.Count];
-            //var potentialProfits = new decimal[bets.Count];
+
+            //decimal totalProbabilities = 0;
+            //decimal[] probabilities = new decimal[bets.Count];
+            //decimal[] betAmounts = new decimal[bets.Count];
+            //decimal[] potentialProfits = new decimal[bets.Count];
 
             //for (int i = 0; i < bets.Count; i++)
             //{
             //    FootballEvent bet = bets[i];
-            //    decimal probability = 1 / bet.HomeOdds + 1 / bet.AwayOdds;
+            //    decimal probability = 1 / (1 + bet.HomeOdds / bet.AwayOdds);
             //    totalProbabilities += probability;
             //    probabilities[i] = probability;
             //}
 
-            //response += "Cálculo de arbitraje ----------------------\n";
-
+            //response += $"Cálculo de arbitraje: ----------------------\n";
             //for (int i = 0; i < bets.Count; i++)
             //{
             //    FootballEvent bet = bets[i];
-            //    decimal betAmount = capital * probabilities[i] / totalProbabilities;
+            //    decimal betAmount = 100m * probabilities[i] / totalProbabilities;
             //    decimal potentialProfit = betAmount * (1 / bet.HomeOdds - 1);
 
             //    betAmounts[i] = betAmount;
@@ -338,62 +372,55 @@ namespace Arbitraje
             //    response += $"Bookmaker: {bet.Bookmaker}\n";
             //    response += $"Cantidad a invertir: ${betAmount:0.00}\n";
             //    response += $"Ganancia potencial: ${potentialProfit:0.00}\n";
-            //    response += $"\n\n";
             //}
 
             //int bestBetIndex = Array.IndexOf(potentialProfits, potentialProfits.Max());
             //decimal bestBetAmount = betAmounts[bestBetIndex];
             //decimal bestBetProfit = potentialProfits[bestBetIndex];
 
-            //response += "Mejor oportunidad ----------------------\n";
+            //response += $"\n\nMejor oportunidad: ----------------------\n"; 
             //response += $"Bookmaker: {bets[bestBetIndex].Bookmaker}\n";
             //response += $"Cantidad a invertir: ${bestBetAmount:0.00}\n";
             //response += $"Ganancia potencial: ${bestBetProfit:0.00}\n";
 
+                decimal totalProbabilities = 0;
+                decimal[] probabilities = new decimal[bets.Count];
+                decimal[] betAmounts = new decimal[bets.Count];
+                decimal[] potentialProfits = new decimal[bets.Count];
+
+                for (int i = 0; i < bets.Count; i++)
+                {
+                    FootballEvent bet = bets[i];
+                    decimal probability = 1 / (1 + bet.HomeOdds / bet.AwayOdds);
+                    totalProbabilities += probability;
+                    probabilities[i] = probability;
+                }
+
+                response += $"Cálculo de arbitraje H2H (mano a mano): ----------------------\n";
+                for (int i = 0; i < bets.Count; i++)
+                {
+                    FootballEvent bet = bets[i];
+                    decimal betAmount = capital * probabilities[i] / totalProbabilities;
+                    decimal potentialProfit = betAmount * (1 / bet.HomeOdds - 1);
+
+                    betAmounts[i] = betAmount;
+                    potentialProfits[i] = potentialProfit;
+
+                    response += $"Bookmaker: {bet.Bookmaker}\n";
+                    response += $"Cantidad a invertir: ${betAmount:0.00}\n";
+                    response += $"Ganancia potencial: ${potentialProfits:0.00}\n";
+                }
+
+                int bestBetIndex = Array.IndexOf(potentialProfits, potentialProfits.Max());
+                decimal bestBetAmount = betAmounts[bestBetIndex];
+                decimal bestBetProfit = potentialProfits[bestBetIndex];
+
+                response += $"Mejor oportunidad: ----------------------\n";
+                response += $"Bookmaker: {bets[bestBetIndex].Bookmaker}\n";
+                response += $"Cantidad a invertir: ${bestBetAmount:0.00}\n";
+                response += $"Ganancia potencial: ${bestBetProfit:0.00}\n";
             
-
-
-            decimal totalProbabilities = 0;
-            decimal[] probabilities = new decimal[bets.Count];
-            decimal[] betAmounts = new decimal[bets.Count];
-            decimal[] potentialProfits = new decimal[bets.Count];
-
-            for (int i = 0; i < bets.Count; i++)
-            {
-                FootballEvent bet = bets[i];
-                decimal probability = 1 / bet.HomeOdds + 1 / bet.AwayOdds;
-                totalProbabilities += probability;
-                probabilities[i] = probability;
-            }
-
-            response += $"Cálculo de arbitraje: ----------------------\n";
-            for (int i = 0; i < bets.Count; i++)
-            {
-                FootballEvent bet = bets[i];
-                decimal betAmount = capital * probabilities[i] / totalProbabilities;
-                decimal potentialProfit = betAmount * ((1 / bet.HomeOdds) - 1);
-
-                betAmounts[i] = betAmount;
-                potentialProfits[i] = potentialProfit;
-
-                response += $"Bookmaker: {bet.Bookmaker}\n";
-                response += $"Cantidad a invertir: ${betAmount:0.00}\n";
-                response += $"Ganancia potencial: ${potentialProfit:0.00}\n";
-            }
-
-            int bestBetIndex = Array.IndexOf(potentialProfits, potentialProfits.Max());
-            decimal bestBetAmount = betAmounts[bestBetIndex];
-            decimal bestBetProfit = potentialProfits[bestBetIndex];
-
-            response += $"Mejor oportunidad:\n";
-            response += $"----------------------\n";
-
-            response += $"Bookmaker: {bets[bestBetIndex].Bookmaker}\n";
-            response += $"Cantidad a invertir: ${bestBetAmount:0.00}\n";
-            response += $"Ganancia potencial: ${bestBetProfit:0.00}\n";
-
-
-            return response+= "\n";
+            return response += "\n";
         }
     }
 }
