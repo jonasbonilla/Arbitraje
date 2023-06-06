@@ -17,6 +17,7 @@ namespace Arbitraje.Models
     public class FootballEvent
     {
         public string Bookmaker { get; set; }
+        public DateTime CommenceTime { get; set; }
         public string HomeTeam { get; set; }
         public string AwayTeam { get; set; }
         public decimal HomeOdds { get; set; }
@@ -99,5 +100,5 @@ namespace Arbitraje.Models
 
             return bestOpportunity;
         }
-    }
+    } 
 }

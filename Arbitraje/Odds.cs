@@ -78,9 +78,9 @@ namespace Arbitraje
             }
 
             // Ejemplo de uso del método GetOdds con valores personalizados
-            string sport = cbxSports.SelectedValue.ToString();
-            string regions = _casasDeApuestas.Find(x => x.bookmaker_key == cbxBookmarkers.SelectedValue.ToString()).region_key; // se puede concatenar
-            string markets = cbxBettingMarket.SelectedValue.ToString(); // se puede concatenar
+            string sport = cbxSports.SelectedValue.ToString(); // UN SOLO GRUPO, UNA SOLA CATEGORIA
+            string regions = _casasDeApuestas.Find(x => x.bookmaker_key == cbxBookmarkers.SelectedValue.ToString()).region_key; // eu - se puede concatenar
+            string markets = cbxBettingMarket.SelectedValue.ToString(); // H2H - se puede concatenar
 
             _juegos = await GetGames(baseUrl, apiKey, sport, regions, markets);
             if (_juegos.Count == 0)
@@ -88,7 +88,7 @@ namespace Arbitraje
                 MessageBox.Show("Error al obtenrer lista de juegos");
                 return;
             }
-            
+
             // games by bookmarket
             var selectedBookmaker = _casasDeApuestas.Find(x => x.bookmaker_key == cbxBookmarkers.SelectedValue.ToString());
             var hoy = DateTime.Now;
@@ -108,61 +108,66 @@ namespace Arbitraje
                         .Where(bookmaker => bookmaker.key == selectedBookmaker.bookmaker_key || bookmaker.key == "betfair" || bookmaker.key == "betsson")
                         .ToList()
                 })
-                .Where(game => game.bookmakers.Any() && game.commence_time <= new DateTime(hoy.Year, hoy.Month, 6, 23, 59, 59))
+                .Where(game => game.bookmakers.Any() && (game.commence_time >= dtpDateFrom.Value && game.commence_time <= dtpDateTo.Value))
                 .ToList();
-            //var json = JsonConvert.SerializeObject(gamesFromBookmaker);
+
+
+            if (gamesFromBookmaker.Count == 0)
+            {
+                txtResponse.AppendText("No se encontraron eventos para las opciones seleccionadas");
+                return;
+            }
+
 
             // eventos de futbol 
             var eventos = new List<FootballEvent>();
-            
+
             // Mostrar los juegos filtrados (todo)
             foreach (Game game in gamesFromBookmaker)
             {
-                txtResponse.AppendText($"ID: {game.id}\n");
-                txtResponse.AppendText($"Home Team: {game.home_team}\n");
-                txtResponse.AppendText($"Away Team: {game.away_team}\n");
-                txtResponse.AppendText($"Commence Time: {game.commence_time}\n");
-                txtResponse.AppendText("\n");
+                //txtResponse.AppendText($"ID: {game.id}\n");
+                //txtResponse.AppendText($"Home Team: {game.home_team}\n");
+                //txtResponse.AppendText($"Away Team: {game.away_team}\n");
+                //txtResponse.AppendText($"Commence Time: {game.commence_time}\n");
+                //txtResponse.AppendText("\n");
                 foreach (Bookmaker bookmaker in game.bookmakers)
-                { 
-                    foreach (Market market in bookmaker.markets)
-                    { 
-                        txtResponse.AppendText($"    Key: {cbxBettingMarket.Text}\n"); // market.key
-                        txtResponse.AppendText($"    Last Update: {market.last_update}\n");
-                        txtResponse.AppendText("    Outcomes:\n");
-                        foreach (Outcome outcome in market.outcomes)
-                        {
-                            txtResponse.AppendText($"      Name: {outcome.name}\n");
-                            txtResponse.AppendText($"      Price: {outcome.price}\n");
-                        }
-                    }
+                {
+                    //foreach (Market market in bookmaker.markets)
+                    //{ 
+                    //    txtResponse.AppendText($"    Key: {cbxBettingMarket.Text}\n"); // market.key
+                    //    txtResponse.AppendText($"    Last Update: {market.last_update}\n");
+                    //    txtResponse.AppendText("    Outcomes:\n");
+                    //    foreach (Outcome outcome in market.outcomes)
+                    //    {
+                    //        txtResponse.AppendText($"      Name: {outcome.name}\n");
+                    //        txtResponse.AppendText($"      Price: {outcome.price}\n");
+                    //    }
+                    //}
 
                     // llenar eventos
                     eventos.Add(new FootballEvent
                     {
                         Bookmaker = bookmaker.key,
+                        CommenceTime = game.commence_time,
                         HomeTeam = game.home_team,
                         AwayTeam = game.away_team,
-                        HomeOdds = bookmaker.markets.Find(x=> x.key == "h2h").outcomes.Find(x => x.name == game.home_team).price,
-                        AwayOdds = bookmaker.markets.Find(x => x.key == "h2h").outcomes.Find(x => x.name == game.away_team).price,
-                        DrawOdds = bookmaker.markets.Find(x => x.key == "h2h").outcomes.Find(x => x.name == "Draw").price,
-
+                        HomeOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == game.home_team).price,
+                        AwayOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == game.away_team).price,
+                        DrawOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == "Draw").price,
                     });
                 }
-                txtResponse.AppendText("\n\n\n"); 
+                //txtResponse.AppendText("\n\n\n"); 
             }
 
             // presento eventos
             // Create an instance of the ArbitrageCalculator class
             //var calculator = new ArbitrageCalculator();
             var arbFinder = new ArbitrageOpportunityFinder();
-
-            txtResponse.AppendText($"---------------------------------\n");
             foreach (FootballEvent evento in eventos)
             {
                 //calculator.AddFootballEvent(evento);
 
-                txtResponse.AppendText($"Bookmaker: {evento.Bookmaker}\n");
+                txtResponse.AppendText($"{evento.Bookmaker.ToUpper()} - {evento.CommenceTime.ToLongDateString()} / {evento.CommenceTime.ToLongTimeString()} \n");
                 txtResponse.AppendText($"{evento.HomeTeam} vs. {evento.AwayTeam}\n");
                 txtResponse.AppendText($"HomeOdds: {evento.HomeOdds}\n");
                 txtResponse.AppendText($"AwayOdds: {evento.AwayOdds}\n");
@@ -172,20 +177,32 @@ namespace Arbitraje
 
             // Perform arbitrage
             //calculator.PerformArbitrage();
-            var bestOpportunity = arbFinder.FindBestOpportunity(eventos);
-            if (bestOpportunity != null)
-            {
-                txtResponse.AppendText($"--------------- Best opportunity found at {bestOpportunity.Bookmaker}:\n");
-                txtResponse.AppendText($"Home Team: {bestOpportunity.HomeTeam}\n");
-                txtResponse.AppendText($"Away Team: {bestOpportunity.AwayTeam}\n");
-                txtResponse.AppendText($"Home Odds: {bestOpportunity.HomeOdds}\n");
-                txtResponse.AppendText($"Draw Odds: {bestOpportunity.DrawOdds}\n");
-                txtResponse.AppendText($"Away Odds: {bestOpportunity.AwayOdds}\n");
-            }
-            else
-            {
-                txtResponse.AppendText("--------------- No arbitrage opportunities found.");
-            }
+            //var bestOpportunity = arbFinder.FindBestOpportunity(eventos);
+            //if (bestOpportunity != null)
+            //{
+            //    txtResponse.AppendText($"--------------- Best opportunity found at {bestOpportunity.Bookmaker}:\n");
+            //    txtResponse.AppendText($"Home Team: {bestOpportunity.HomeTeam}\n");
+            //    txtResponse.AppendText($"Away Team: {bestOpportunity.AwayTeam}\n");
+            //    txtResponse.AppendText($"Home Odds: {bestOpportunity.HomeOdds}\n");
+            //    txtResponse.AppendText($"Draw Odds: {bestOpportunity.DrawOdds}\n");
+            //    txtResponse.AppendText($"Away Odds: {bestOpportunity.AwayOdds}\n");
+            //}
+            //else
+            //{
+            //    txtResponse.AppendText("--------------- No arbitrage opportunities found.");
+            //}
+
+
+
+            // Arbitraje
+            // Cálculo de arbitraje para una lista de apuestas del mismo evento pero de diferentes bookmakers.
+            // El programa presenta en pantalla la mejor oportunidad, la cantidad a invertir en cada probabilidad y la ganancia esperada.
+            // Se asume un capital inicial de $100.
+
+            pnlLoading.Visible = true;
+            var result = await CalculateArbitrage(eventos, 100m);
+            pnlLoading.Visible = false;
+            txtResponse.AppendText(result);
         }
 
         private async Task<List<BettingHouse>> GetBettingHouses()
@@ -259,7 +276,7 @@ namespace Arbitraje
             return result;
         }
 
-        private async Task<List<Game>> GetGames(string baseUrl, string ApiKey, string sport, string regions, string markets)
+        private async Task<List<Game>> GetGames(string baseUrl, string apiKey, string sport, string regions, string markets)
         {
             List<Game> result;
             try
@@ -288,6 +305,95 @@ namespace Arbitraje
 
             // Devolvemos una lista vacía por simplicidad
             return result;
+        }
+
+        private async Task<string> CalculateArbitrage(List<FootballEvent> bets, decimal capital)
+        {
+            var response = string.Empty;
+
+            //var totalProbabilities = 0m;
+            //var probabilities = new decimal[bets.Count];
+            //var betAmounts = new decimal[bets.Count];
+            //var potentialProfits = new decimal[bets.Count];
+
+            //for (int i = 0; i < bets.Count; i++)
+            //{
+            //    FootballEvent bet = bets[i];
+            //    decimal probability = 1 / bet.HomeOdds + 1 / bet.AwayOdds;
+            //    totalProbabilities += probability;
+            //    probabilities[i] = probability;
+            //}
+
+            //response += "Cálculo de arbitraje ----------------------\n";
+
+            //for (int i = 0; i < bets.Count; i++)
+            //{
+            //    FootballEvent bet = bets[i];
+            //    decimal betAmount = capital * probabilities[i] / totalProbabilities;
+            //    decimal potentialProfit = betAmount * (1 / bet.HomeOdds - 1);
+
+            //    betAmounts[i] = betAmount;
+            //    potentialProfits[i] = potentialProfit;
+
+            //    response += $"Bookmaker: {bet.Bookmaker}\n";
+            //    response += $"Cantidad a invertir: ${betAmount:0.00}\n";
+            //    response += $"Ganancia potencial: ${potentialProfit:0.00}\n";
+            //    response += $"\n\n";
+            //}
+
+            //int bestBetIndex = Array.IndexOf(potentialProfits, potentialProfits.Max());
+            //decimal bestBetAmount = betAmounts[bestBetIndex];
+            //decimal bestBetProfit = potentialProfits[bestBetIndex];
+
+            //response += "Mejor oportunidad ----------------------\n";
+            //response += $"Bookmaker: {bets[bestBetIndex].Bookmaker}\n";
+            //response += $"Cantidad a invertir: ${bestBetAmount:0.00}\n";
+            //response += $"Ganancia potencial: ${bestBetProfit:0.00}\n";
+
+            
+
+
+            decimal totalProbabilities = 0;
+            decimal[] probabilities = new decimal[bets.Count];
+            decimal[] betAmounts = new decimal[bets.Count];
+            decimal[] potentialProfits = new decimal[bets.Count];
+
+            for (int i = 0; i < bets.Count; i++)
+            {
+                FootballEvent bet = bets[i];
+                decimal probability = 1 / bet.HomeOdds + 1 / bet.AwayOdds;
+                totalProbabilities += probability;
+                probabilities[i] = probability;
+            }
+
+            response += $"Cálculo de arbitraje: ----------------------\n";
+            for (int i = 0; i < bets.Count; i++)
+            {
+                FootballEvent bet = bets[i];
+                decimal betAmount = capital * probabilities[i] / totalProbabilities;
+                decimal potentialProfit = betAmount * ((1 / bet.HomeOdds) - 1);
+
+                betAmounts[i] = betAmount;
+                potentialProfits[i] = potentialProfit;
+
+                response += $"Bookmaker: {bet.Bookmaker}\n";
+                response += $"Cantidad a invertir: ${betAmount:0.00}\n";
+                response += $"Ganancia potencial: ${potentialProfit:0.00}\n";
+            }
+
+            int bestBetIndex = Array.IndexOf(potentialProfits, potentialProfits.Max());
+            decimal bestBetAmount = betAmounts[bestBetIndex];
+            decimal bestBetProfit = potentialProfits[bestBetIndex];
+
+            response += $"Mejor oportunidad:\n";
+            response += $"----------------------\n";
+
+            response += $"Bookmaker: {bets[bestBetIndex].Bookmaker}\n";
+            response += $"Cantidad a invertir: ${bestBetAmount:0.00}\n";
+            response += $"Ganancia potencial: ${bestBetProfit:0.00}\n";
+
+
+            return response+= "\n";
         }
     }
 }
