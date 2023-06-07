@@ -1,0 +1,294 @@
+[
+  {
+    "id": "f50a7a91d3c8220ce36f27101cb3e440",
+    "sport_key": "americanfootball_cfl",
+    "sport_title": "CFL",
+    "commence_time": "2023-06-09T01:00:00Z",
+    "home_team": "Calgary Stampeders",
+    "away_team": "BC Lions",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:50:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:22Z",
+            "outcomes": [
+              {
+                "name": "BC Lions",
+                "price": 2.46
+              },
+              {
+                "name": "Calgary Stampeders",
+                "price": 1.53
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:50:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:00Z",
+            "outcomes": [
+              {
+                "name": "BC Lions",
+                "price": 2.5
+              },
+              {
+                "name": "Calgary Stampeders",
+                "price": 1.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:49:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:49:04Z",
+            "outcomes": [
+              {
+                "name": "BC Lions",
+                "price": 2.45
+              },
+              {
+                "name": "Calgary Stampeders",
+                "price": 1.57
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bb87eb8d335c593114cde0e8fb2e3914",
+    "sport_key": "americanfootball_cfl",
+    "sport_title": "CFL",
+    "commence_time": "2023-06-10T00:30:00Z",
+    "home_team": "Winnipeg Blue Bombers",
+    "away_team": "Hamilton Tiger-Cats",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:50:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:22Z",
+            "outcomes": [
+              {
+                "name": "Hamilton Tiger-Cats",
+                "price": 2.62
+              },
+              {
+                "name": "Winnipeg Blue Bombers",
+                "price": 1.47
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:49:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:49:04Z",
+            "outcomes": [
+              {
+                "name": "Hamilton Tiger-Cats",
+                "price": 2.75
+              },
+              {
+                "name": "Winnipeg Blue Bombers",
+                "price": 1.47
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:50:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:00Z",
+            "outcomes": [
+              {
+                "name": "Hamilton Tiger-Cats",
+                "price": 2.63
+              },
+              {
+                "name": "Winnipeg Blue Bombers",
+                "price": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2ae680c32ea4b7c28ea1753f0f843327",
+    "sport_key": "americanfootball_cfl",
+    "sport_title": "CFL",
+    "commence_time": "2023-06-10T23:00:00Z",
+    "home_team": "Montreal Alouettes",
+    "away_team": "Ottawa Redblacks",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:50:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:22Z",
+            "outcomes": [
+              {
+                "name": "Montreal Alouettes",
+                "price": 1.59
+              },
+              {
+                "name": "Ottawa Redblacks",
+                "price": 2.33
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:50:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:00Z",
+            "outcomes": [
+              {
+                "name": "Montreal Alouettes",
+                "price": 1.65
+              },
+              {
+                "name": "Ottawa Redblacks",
+                "price": 2.28
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:49:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:49:04Z",
+            "outcomes": [
+              {
+                "name": "Montreal Alouettes",
+                "price": 1.61
+              },
+              {
+                "name": "Ottawa Redblacks",
+                "price": 2.4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1b615712acb4ffd69cda8724cb3d6daa",
+    "sport_key": "americanfootball_cfl",
+    "sport_title": "CFL",
+    "commence_time": "2023-06-11T23:00:00Z",
+    "home_team": "Edmonton Elks",
+    "away_team": "Saskatchewan Roughriders",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:50:22Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:22Z",
+            "outcomes": [
+              {
+                "name": "Edmonton Elks",
+                "price": 2.02
+              },
+              {
+                "name": "Saskatchewan Roughriders",
+                "price": 1.77
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:50:00Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:00Z",
+            "outcomes": [
+              {
+                "name": "Edmonton Elks",
+                "price": 2.08
+              },
+              {
+                "name": "Saskatchewan Roughriders",
+                "price": 1.76
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:49:04Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:49:04Z",
+            "outcomes": [
+              {
+                "name": "Edmonton Elks",
+                "price": 2.1
+              },
+              {
+                "name": "Saskatchewan Roughriders",
+                "price": 1.77
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

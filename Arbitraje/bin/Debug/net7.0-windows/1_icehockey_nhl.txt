@@ -1,0 +1,287 @@
+[
+  {
+    "id": "27c94f6f2f69abaa661de5247e5817c2",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2023-06-09T00:20:00Z",
+    "home_team": "Florida Panthers",
+    "away_team": "Vegas Golden Knights",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:55:51Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:55:51Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 2.31
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.74
+              },
+              {
+                "name": "Draw",
+                "price": 4.58
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "suprabets",
+        "title": "Suprabets",
+        "last_update": "2023-06-07T04:56:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:56:30Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 1.84
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.06
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:56:32Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:56:32Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 1.81
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.01
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:57:09Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:57:09Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 2.34
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.77
+              },
+              {
+                "name": "Draw",
+                "price": 4.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-06-07T04:55:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:55:41Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 1.84
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.08
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:55:25Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:55:25Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 1.83
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:57:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:57:17Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 1.85
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.04
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:56:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:56:10Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 2.34
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.6
+              },
+              {
+                "name": "Draw",
+                "price": 4.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:55:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:55:39Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 2.32
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.6
+              },
+              {
+                "name": "Draw",
+                "price": 4.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2023-06-07T04:56:46Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:56:46Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 1.87
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.06
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-06-07T04:56:46Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 1.94
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.16
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "matchbook",
+        "title": "Matchbook",
+        "last_update": "2023-06-07T04:55:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:55:39Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 1.88
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.06
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-06-07T04:55:39Z",
+            "outcomes": [
+              {
+                "name": "Florida Panthers",
+                "price": 1.95
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.14
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

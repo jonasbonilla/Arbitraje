@@ -1,0 +1,7071 @@
+[
+  {
+    "id": "0e7b3192b263a571917d8996f42c5024",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-08T00:20:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Detroit Lions",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 3.28
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.34
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 3.25
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.36
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 3.35
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.36
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 3.5
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.32
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 3.4
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.32
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 3.4
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.33
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 3.22
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.36
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 3.45
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:57Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 3.3
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 3.3
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.35
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "175d9f07fc52d99b21bc772b1499c3d8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 3
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.98
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.41
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 3.15
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.38
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 3.12
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.37
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 3
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 3.1
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.97
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.41
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 3.19
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 3.1
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.39
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 3.1
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.39
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6c2d3077c50eece8e6a37742d1ac5756",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.65
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 2.28
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.67
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 2.23
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.67
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 2.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.65
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 2.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.65
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 2.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.65
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 2.26
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.67
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 2.24
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.62
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 2.45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.65
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 2.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.65
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 2.3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "33368d4979d3475b77f5e9eb49648203",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.25
+              },
+              {
+                "name": "Houston Texans",
+                "price": 4.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.23
+              },
+              {
+                "name": "Houston Texans",
+                "price": 4.26
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.23
+              },
+              {
+                "name": "Houston Texans",
+                "price": 4.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.22
+              },
+              {
+                "name": "Houston Texans",
+                "price": 4.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.22
+              },
+              {
+                "name": "Houston Texans",
+                "price": 4.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.22
+              },
+              {
+                "name": "Houston Texans",
+                "price": 4.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.23
+              },
+              {
+                "name": "Houston Texans",
+                "price": 4.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.25
+              },
+              {
+                "name": "Houston Texans",
+                "price": 4.39
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.23
+              },
+              {
+                "name": "Houston Texans",
+                "price": 4.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.23
+              },
+              {
+                "name": "Houston Texans",
+                "price": 4.4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "35294c242bcfdb30c9f58dc6f68da6b2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.74
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 2.12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.75
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 2.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.74
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 2.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.75
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 2.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.73
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 2.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.75
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 2.09
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.76
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 2.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.72
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 2.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.74
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 2.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.74
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 2.15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1e64c6fc6a9e7e652e2f8bd3b243a692",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.56
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.47
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.59
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.55
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.57
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.5
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.55
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.53
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.48
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.26
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.66
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.61
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.56
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.45
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.56
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.45
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.56
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b3763a6d678b9787e27cec3272252e24",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.35
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.37
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 3.17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.36
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.35
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 3.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.33
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 3.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.35
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 3.24
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.35
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 3.28
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.35
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 3.46
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.34
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 3.35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.34
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 3.35
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bd78fe217c955efc84e20678611dbbac",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Tennessee Titans",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.55
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.55
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.46
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.55
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.54
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.54
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.61
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.36
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.53
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.53
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.67
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.5
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "New Orleans Saints",
+                "price": 1.5
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.65
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "741437df0e5c0350c32ce707161bd423",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T17:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.3
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.64
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.27
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.64
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.25
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.68
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.4
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.62
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.3
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.3
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.62
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.16
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.72
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.41
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.64
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.3
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 2.3
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.65
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "54b900ff32cfc8ad40f4d856fc5a4985",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T20:25:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.7
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.69
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.72
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.7
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.16
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.7
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.71
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.72
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.16
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.67
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.71
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.71
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4d18f524fdaa6d8d7f81f9803a43d5f0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T20:25:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.55
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.55
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 2.46
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.55
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 2.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.54
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 2.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.53
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 2.55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.54
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 2.49
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.56
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 2.47
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.51
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 2.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 2.65
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 2.65
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d543cbc3d38bed6c7c727e3cabc1188e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T20:25:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.73
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.14
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.72
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.75
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.74
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.73
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.74
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.75
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.11
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.71
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.27
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.74
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.74
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d818062d65dfa411c269ee61943655cd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T20:25:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.98
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.41
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.42
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.1
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.94
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.41
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.93
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.42
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.21
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.1
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.39
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 3.1
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.39
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7798e2aa48d8b57ef062e2d31841a17a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-10T20:25:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 2.8
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.44
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 2.78
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 2.75
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.48
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 2.8
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.48
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 2.8
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 2.8
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.44
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 2.67
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.49
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 2.92
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.46
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 2.75
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.47
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 2.75
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.47
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "927adcec09a451dcdb72b17702d07307",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-11T00:20:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.65
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.28
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.67
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.23
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.65
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.62
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.61
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.64
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.28
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.74
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.13
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.65
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.39
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.62
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.62
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.35
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8188b03e2f487d082773bfeac10bdf08",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-12T00:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Buffalo Bills",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.83
+              },
+              {
+                "name": "New York Jets",
+                "price": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.83
+              },
+              {
+                "name": "New York Jets",
+                "price": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:51:24Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:24Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.83
+              },
+              {
+                "name": "New York Jets",
+                "price": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.85
+              },
+              {
+                "name": "New York Jets",
+                "price": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.83
+              },
+              {
+                "name": "New York Jets",
+                "price": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:52:13Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:13Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.83
+              },
+              {
+                "name": "New York Jets",
+                "price": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T04:51:20Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:20Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.85
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.98
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:50:55Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:50:55Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.85
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.06
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T04:51:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:51:58Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.84
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.01
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.84
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.01
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "217559949d3b88a1267c2c4c480eab51",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-15T00:15:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 3.05
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 3.03
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.41
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "666546663407166ca824cc304f740dfe",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.8
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.04
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.8
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 2.04
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b11493a11859c02a97dfa186c32a2b7a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T17:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 2.43
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.57
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 2.4
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.59
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1ed637f2ef1ae5f2f7184d38e94fe137",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T17:00:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.28
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 3.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.29
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 3.76
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ec238fc4bfd91d24ae566950edc120fe",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T17:00:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Chicago Bears",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.85
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.95
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.85
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.95
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "30e317800515c33d2635df2d05a6d14d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T17:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.7
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 2.18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.72
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 2.17
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2ecfbe1dcf553f66dd34b4772c1c9b99",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T17:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91
+              },
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.91
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91
+              },
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.91
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eab3d772c3c8e4a6d3813ece55055529",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T17:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.57
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.42
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.59
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.39
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7332ca406bc75e2770be957036a26966",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T18:00:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.35
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.62
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.33
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.64
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ffb2d67e2387e87d360a5b168bb1b962",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T20:05:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.6
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 2.59
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.51
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a6a30233e1ec7fb3b9f9a5e4444ff14b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T20:05:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.7
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.48
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.69
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.49
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8d0feb26abd99c7136450e434ba91173",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T20:25:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "New York Jets",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.73
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.14
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.75
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.13
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7e413db89b9e5ae9d9454ad5ce4c4a53",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-17T20:25:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.56
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.58
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 2.42
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6be3088c7c2c8914ba201a31d143c989",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-18T00:20:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.77
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.08
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 1.77
+              },
+              {
+                "name": "New England Patriots",
+                "price": 2.08
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "007762a93bced3bfc0ef223acabfdd55",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-18T23:15:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.95
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.85
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.95
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.85
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7ea45f55c7bb922c581f809166c0fab3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-19T00:15:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Cleveland Browns",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T04:52:02Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:02Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 2.02
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.82
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 2.02
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.82
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "47b49faf45f8a39f9910f004a79ff360",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-22T00:15:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "New York Giants",
+    "bookmakers": []
+  },
+  {
+    "id": "4609c9aaa9bc0b3a76b75f2f85f6a5f1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": []
+  },
+  {
+    "id": "2c66bee99eec7cca649ecb6b249868fb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": []
+  },
+  {
+    "id": "f049d09c797baccf11023b4cb7bc9b0b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:00:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Buffalo Bills",
+    "bookmakers": []
+  },
+  {
+    "id": "f72ef9b6be34818391c726a0cd690f48",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:00:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Tennessee Titans",
+    "bookmakers": []
+  },
+  {
+    "id": "2ff30bbaf02729644dc5dd83dd02ab12",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Denver Broncos",
+    "bookmakers": []
+  },
+  {
+    "id": "caae83ff4cadf6b1d63bc8a70af76865",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:00:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "New Orleans Saints",
+    "bookmakers": []
+  },
+  {
+    "id": "c6aa32a2bdcc85e5d8b8ae2e570607e6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:00:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Houston Texans",
+    "bookmakers": []
+  },
+  {
+    "id": "1db441aef0ee06367729d9f1fc3e57b0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": []
+  },
+  {
+    "id": "66edacbc3505803f401192da0fb09b49",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T17:00:00Z",
+    "home_team": "New York Jets",
+    "away_team": "New England Patriots",
+    "bookmakers": []
+  },
+  {
+    "id": "746c410d84424b272d96b1cc18d94b76",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T20:05:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Carolina Panthers",
+    "bookmakers": []
+  },
+  {
+    "id": "9541cadef6a637071b8588eb4938a5c8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T20:25:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": []
+  },
+  {
+    "id": "312881fbc112477815d27aa463491b16",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-24T20:25:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Chicago Bears",
+    "bookmakers": []
+  },
+  {
+    "id": "abf76aa8adc82854d703518042be4452",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-25T00:20:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": []
+  },
+  {
+    "id": "1ef3abdd0b63f93e87b6f114f538762a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-25T23:15:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": []
+  },
+  {
+    "id": "4e911db28c4a3b1ac6a4b497917c00f4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-26T00:15:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": []
+  },
+  {
+    "id": "64d2cc01eb7414bb4a85a3f08cb3ab51",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-09-29T00:15:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Detroit Lions",
+    "bookmakers": []
+  },
+  {
+    "id": "d22cd6a3413a0173d703a0b9d28b5d46",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T13:30:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 2.59
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.51
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 2.51
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.54
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 2.55
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.55
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0eba74e823091ef0c018db3186d6d9f4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:00:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": []
+  },
+  {
+    "id": "21bb40c5a5ceee50be3c920b4ae63d49",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:00:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Miami Dolphins",
+    "bookmakers": []
+  },
+  {
+    "id": "83690cd5137dd21957b5f7e5f0d69ce8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:00:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": []
+  },
+  {
+    "id": "57ffc446e97c819dc2a70b975bb8137a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Denver Broncos",
+    "bookmakers": []
+  },
+  {
+    "id": "878191e32205fb5d1d128e296991bd2f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": []
+  },
+  {
+    "id": "e959481a2f901e068329dd6c3acdb0b8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": []
+  },
+  {
+    "id": "8309916190181e1c0b721d63ba48175b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": []
+  },
+  {
+    "id": "af76fc8f89b894ebf7d38bd342c6b891",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": []
+  },
+  {
+    "id": "8eb8b5d38368fbe9b7d2aeddee9389a3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T17:00:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Washington Commanders",
+    "bookmakers": []
+  },
+  {
+    "id": "332627137e6b3bebf649665ca0b87012",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T20:25:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": []
+  },
+  {
+    "id": "07e61d7c4630256db410e59e483d6c1b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T20:25:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "New England Patriots",
+    "bookmakers": []
+  },
+  {
+    "id": "5c43ea90317b1704021f18776d3f4a34",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-01T20:25:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": []
+  },
+  {
+    "id": "1fc413cbbf2bd5749a9b4e195f6ed6e1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-02T00:20:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": []
+  },
+  {
+    "id": "d684cdd0a0e7b59565cf88ca5d98a216",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-03T00:15:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": []
+  },
+  {
+    "id": "8942fe69e281c9ba159c2f7aad463913",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-06T00:15:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Chicago Bears",
+    "bookmakers": []
+  },
+  {
+    "id": "bdc1fb5a1bed48f5f681d8d1431914d2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T13:30:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.62
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.36
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.57
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.42
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Bills",
+                "price": 1.58
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 2.45
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c5eb13dd3495fa5bc7d6c6b7516ca720",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Houston Texans",
+    "bookmakers": []
+  },
+  {
+    "id": "98ca9ce220c26ef58cfdbaf0312beed8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T17:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": []
+  },
+  {
+    "id": "4c1521d442b80d7f0d6459e8b42e22d7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T17:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Carolina Panthers",
+    "bookmakers": []
+  },
+  {
+    "id": "8dae05c92e2c64a0e7cabc27503c395d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T17:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Tennessee Titans",
+    "bookmakers": []
+  },
+  {
+    "id": "a5c5651da863d6bc3248ecbf310cfa69",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T17:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "New York Giants",
+    "bookmakers": []
+  },
+  {
+    "id": "b9ec5b04fe8be3598c8bbfb01f27e70b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T17:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "New Orleans Saints",
+    "bookmakers": []
+  },
+  {
+    "id": "ad1d9db96233af5b2b4cca4230cdf602",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T20:05:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": []
+  },
+  {
+    "id": "b0c7f9b63b5788ae40e60510364a1af2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T20:05:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": []
+  },
+  {
+    "id": "2cf50b4baf0c1d6ad38e9ecabfeae1de",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T20:25:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "New York Jets",
+    "bookmakers": []
+  },
+  {
+    "id": "303f4cf1b47bb03e98a6c3e787da1321",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-08T20:25:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": []
+  },
+  {
+    "id": "83b372f4210309fc21611f6e5432393a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-09T00:20:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": []
+  },
+  {
+    "id": "9ad60af78054a9f56c65d6a4f9859c0b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-10T00:15:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Green Bay Packers",
+    "bookmakers": []
+  },
+  {
+    "id": "d817435dd756fd63bf5b95d57ccd2c2f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-13T00:15:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Denver Broncos",
+    "bookmakers": []
+  },
+  {
+    "id": "9f8708c037d004208b25f42c741a17a4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T13:30:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.45
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.78
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.45
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Baltimore Ravens",
+                "price": 1.45
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 2.85
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fac6e54ea982e21de9d9710b435b9f1d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T17:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Washington Commanders",
+    "bookmakers": []
+  },
+  {
+    "id": "39c57be9aa8845c80d4e624548d0a189",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T17:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Carolina Panthers",
+    "bookmakers": []
+  },
+  {
+    "id": "c600e3c25b26ff9f010d25d4f2597983",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T17:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": []
+  },
+  {
+    "id": "c52cd634f65ea3f381b44d9b6508e784",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T17:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": []
+  },
+  {
+    "id": "640fd44761340126d8d482cd2a819c4a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T17:00:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": []
+  },
+  {
+    "id": "436514c3dbf06d14bf6a2f3ae0342e72",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T17:00:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Detroit Lions",
+    "bookmakers": []
+  },
+  {
+    "id": "f0582d8bff257127411169703d1e4b5e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T17:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "New Orleans Saints",
+    "bookmakers": []
+  },
+  {
+    "id": "4b857cf9cd52eb84da779be631d09c9a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T17:00:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": []
+  },
+  {
+    "id": "a5d49b88cc4f3d2bbcc2adaea474865b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T20:05:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "New England Patriots",
+    "bookmakers": []
+  },
+  {
+    "id": "2b982be329036f42b28534266e322952",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T20:25:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": []
+  },
+  {
+    "id": "ada96fb0d2eafb1e05ddcb7d38341bf2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-15T20:25:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": []
+  },
+  {
+    "id": "e758a6936980aa16cfabb0c1e4912b5c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-16T00:20:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "New York Giants",
+    "bookmakers": []
+  },
+  {
+    "id": "50d37037731e2c842a06e8237278e403",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-17T00:15:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": []
+  },
+  {
+    "id": "bc6b0c8697462eac904058d49e4917da",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-20T00:15:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": []
+  },
+  {
+    "id": "34cb0a1f67779710e26bad9c1ebab81e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T17:00:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": []
+  },
+  {
+    "id": "ef8a92a57a7d81e486869195c5690d6b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T17:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Detroit Lions",
+    "bookmakers": []
+  },
+  {
+    "id": "ebf1fe7bc260d59dc52f1091163706fd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T17:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Buffalo Bills",
+    "bookmakers": []
+  },
+  {
+    "id": "f494a5594c260ebab3c3e9e4047b2861",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T17:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": []
+  },
+  {
+    "id": "c3f7bbcf37c28205a3ef44b132a97a32",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T17:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Cleveland Browns",
+    "bookmakers": []
+  },
+  {
+    "id": "c01bf971ab76b8a32f0f5fd063e64496",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T17:00:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Washington Commanders",
+    "bookmakers": []
+  },
+  {
+    "id": "50d31f250d6221f4cacd447233e6d9e6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T20:05:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": []
+  },
+  {
+    "id": "59bf8467603df4b0fa382ea7aa39824b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T20:05:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": []
+  },
+  {
+    "id": "07d0d35e09a505684b642ec5d6c834cb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T20:25:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Green Bay Packers",
+    "bookmakers": []
+  },
+  {
+    "id": "19fdc05d9e59e53bdf663c15e0d64eff",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-22T20:25:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": []
+  },
+  {
+    "id": "3d2b3ee29b804e2adaabe9c8c18d4024",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-23T00:20:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Miami Dolphins",
+    "bookmakers": []
+  },
+  {
+    "id": "bc9bee4d0628f8c2c2a89d0fc536b655",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-24T00:15:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": []
+  },
+  {
+    "id": "56a279befe6280acb5ecd02b1ca3e236",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-27T00:15:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": []
+  },
+  {
+    "id": "a13c16fa181d37e4603c793125a187fe",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": []
+  },
+  {
+    "id": "aee2905c66f2a86391f9b30740fea0b7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:00:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Houston Texans",
+    "bookmakers": []
+  },
+  {
+    "id": "6b56088ad282fe2b8bda09672b2f0d16",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:00:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": []
+  },
+  {
+    "id": "fd82c1be9504bb7997edc470eb5c1841",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:00:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": []
+  },
+  {
+    "id": "f178a9547a006602c75a3e9496ed4930",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "New Orleans Saints",
+    "bookmakers": []
+  },
+  {
+    "id": "d00525c4b0701d8762321e851ea97063",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": []
+  },
+  {
+    "id": "613aae8ecd434ef33adf7892d5e2c803",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "New England Patriots",
+    "bookmakers": []
+  },
+  {
+    "id": "c49c555fb5a02349c4acc861c6aff91f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:00:00Z",
+    "home_team": "New York Giants",
+    "away_team": "New York Jets",
+    "bookmakers": []
+  },
+  {
+    "id": "cf81d1c07cf49699aea0992b5ddee2a1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T17:00:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": []
+  },
+  {
+    "id": "7f303f97c3ee076fcceb785ac390178d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T20:05:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Cleveland Browns",
+    "bookmakers": []
+  },
+  {
+    "id": "654cb9192ec741626a7059a9e872f0d4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T20:25:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": []
+  },
+  {
+    "id": "2ca486f1e98c4d29d6078fdfd2fac9a3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T20:25:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": []
+  },
+  {
+    "id": "8a0b57374e3042e564e56005efbea8ec",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-29T20:25:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": []
+  },
+  {
+    "id": "f0d7a1f0ba2a61f4d021b1ab15c62c3b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-30T00:20:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Chicago Bears",
+    "bookmakers": []
+  },
+  {
+    "id": "ce3857aaecff191ffaab2611ee630634",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-10-31T00:15:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": []
+  },
+  {
+    "id": "8592a602cd21627451a64f24a65c8907",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-03T00:15:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Tennessee Titans",
+    "bookmakers": []
+  },
+  {
+    "id": "3f6905c62a5e2b8cd7c8822856860a60",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T14:30:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.45
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.78
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.45
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.45
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.85
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a152431eb1fa84bb8e1eec6889af1def",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T18:00:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": []
+  },
+  {
+    "id": "14b6dc52dc6d20569b167d942ba576e7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T18:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": []
+  },
+  {
+    "id": "e84e273e963cb5d24bd98964fc043045",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T18:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": []
+  },
+  {
+    "id": "cc7927597bbba6ad9aec7dac1dd3c651",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Chicago Bears",
+    "bookmakers": []
+  },
+  {
+    "id": "d248255a716110a011dc3f31fec47454",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T18:00:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": []
+  },
+  {
+    "id": "b15c4963ac467111a37d6a7ce795e1df",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T18:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": []
+  },
+  {
+    "id": "476e94efa7056c70f547bcc1c5655086",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T18:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Washington Commanders",
+    "bookmakers": []
+  },
+  {
+    "id": "dfc7a4f7f4105cd7d9a62ba024a0d97f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T21:05:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": []
+  },
+  {
+    "id": "ba91daa8730973290b1f65fb2acf55ca",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T21:25:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": []
+  },
+  {
+    "id": "91dcc35deff43b6ebeac57f100e6944d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-05T21:25:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "New York Giants",
+    "bookmakers": []
+  },
+  {
+    "id": "9476d69204f77a4a30f6a05347114cf9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-06T01:20:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Buffalo Bills",
+    "bookmakers": []
+  },
+  {
+    "id": "a1374d75e205eb4eeed554e7d2ea5048",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-07T01:15:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": []
+  },
+  {
+    "id": "6b00e6497a647bf5cb1d519b0519b73a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-10T01:15:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Carolina Panthers",
+    "bookmakers": []
+  },
+  {
+    "id": "dbd50347b2e8dbc90587537ad270b380",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T14:30:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.73
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.46
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.64
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.49
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.65
+              },
+              {
+                "name": "New England Patriots",
+                "price": 1.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "74e532024ec77704fe5622f5de85c1b5",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T18:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Cleveland Browns",
+    "bookmakers": []
+  },
+  {
+    "id": "89ded0ad665e4fb3e304a8025172c3d7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T18:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Houston Texans",
+    "bookmakers": []
+  },
+  {
+    "id": "ee75e012cffdd4a2b0a15324a9d779ce",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T18:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Green Bay Packers",
+    "bookmakers": []
+  },
+  {
+    "id": "80c6181b545b7193608b4252e9c6ce00",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T18:00:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": []
+  },
+  {
+    "id": "1f240008373f949dbdee49614106fc74",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T18:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "New Orleans Saints",
+    "bookmakers": []
+  },
+  {
+    "id": "5567f64950bd27e566a63c30a0ddd2d7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T18:00:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Tennessee Titans",
+    "bookmakers": []
+  },
+  {
+    "id": "6ea5c2be034dfa436f36dd02173e7397",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T21:05:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": []
+  },
+  {
+    "id": "07a1496c20628d5f7f237acfea179054",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T21:05:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Detroit Lions",
+    "bookmakers": []
+  },
+  {
+    "id": "b11279188b3dd6e6746be6572906c54b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T21:25:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "New York Giants",
+    "bookmakers": []
+  },
+  {
+    "id": "f7e8366f4bc62b8490b4324f8088bcab",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-12T21:25:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Washington Commanders",
+    "bookmakers": []
+  },
+  {
+    "id": "41ce9f4c4c9f5731ab3d7c30eeb346f0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-13T01:20:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "New York Jets",
+    "bookmakers": []
+  },
+  {
+    "id": "40424eaaf83273294551775c24859cd9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-14T01:15:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Denver Broncos",
+    "bookmakers": []
+  },
+  {
+    "id": "db31693b2f2899711be56555f9f16e8c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-17T01:15:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": []
+  },
+  {
+    "id": "59073fafe2bff1a36fbac39f03ea4047",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": []
+  },
+  {
+    "id": "7e5e7857acb2afac81f6c8a311fe8dd6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:00:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": []
+  },
+  {
+    "id": "8e43982c562e31843c48689ce165eea1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Chicago Bears",
+    "bookmakers": []
+  },
+  {
+    "id": "9cd9f4a30fa63e658d48e623537a6185",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:00:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": []
+  },
+  {
+    "id": "67393ac54aa501bed8309ea51f5486ff",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:00:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": []
+  },
+  {
+    "id": "ba7cff3e35fbc32e98f0f47f5ba89c00",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:00:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Tennessee Titans",
+    "bookmakers": []
+  },
+  {
+    "id": "0b436d8d1d616558f5b3d0e8d26a6f1e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": []
+  },
+  {
+    "id": "41ec5ae176a8e62f6c3a4701cbe511cd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T18:00:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "New York Giants",
+    "bookmakers": []
+  },
+  {
+    "id": "2c03e21b050d5cc577cefeaf412806a1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T21:05:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": []
+  },
+  {
+    "id": "59dd86623afe930e7553a4d69ae5d1dd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T21:25:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "New York Jets",
+    "bookmakers": []
+  },
+  {
+    "id": "d941b325b8c793bdf81ef9251ba3f720",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-19T21:25:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": []
+  },
+  {
+    "id": "1c7504d931ca37018ca9a1b8c33642e7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-20T01:20:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": []
+  },
+  {
+    "id": "34e87b63f58243a144a3c716fa79c61e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-21T01:15:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.55
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 2.46
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "32bf4e1d342e182802b9879d7d00eaa1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-23T17:30:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Green Bay Packers",
+    "bookmakers": []
+  },
+  {
+    "id": "1297c43f31bb5eeec57a6d91fbbadb4d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-23T21:30:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Washington Commanders",
+    "bookmakers": []
+  },
+  {
+    "id": "d4ee58b31ac97aee2e3d506ec5ef7a5e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-24T01:20:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": []
+  },
+  {
+    "id": "cedf01084f049c9e0fc89778529b6302",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-24T20:00:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 2.1
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 2.13
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.73
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Miami Dolphins",
+                "price": 2.15
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.75
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "be874a8f3eca4e45343be4daa899fbb8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T18:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "New Orleans Saints",
+    "bookmakers": []
+  },
+  {
+    "id": "fcc7a0fe5b2cfdd10b0939996c4eb845",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T18:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Carolina Panthers",
+    "bookmakers": []
+  },
+  {
+    "id": "4dc52e888473f9d445419321b93606f9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T18:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": []
+  },
+  {
+    "id": "cdbded92854532a2f0b02d6d36a47e26",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T18:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": []
+  },
+  {
+    "id": "1dc62383b18c214edc5f84411cda0880",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T18:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": []
+  },
+  {
+    "id": "294be529a4452c4ee875261de657f2e7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T18:00:00Z",
+    "home_team": "New York Giants",
+    "away_team": "New England Patriots",
+    "bookmakers": []
+  },
+  {
+    "id": "7c0096db21da00d98408a9d2c2abb9a9",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T21:05:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": []
+  },
+  {
+    "id": "235cda051b67abf97abb666185141191",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T21:05:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Cleveland Browns",
+    "bookmakers": []
+  },
+  {
+    "id": "ed749f58474979a2601336af4596d47d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T21:25:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Buffalo Bills",
+    "bookmakers": []
+  },
+  {
+    "id": "2c2e9aa27b441e76da290963f32f3141",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-26T21:25:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": []
+  },
+  {
+    "id": "8adade244c5434468c8b5110d2495346",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-27T01:20:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": []
+  },
+  {
+    "id": "d663b4decfd0d3a45a6b409e48d62894",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-11-28T01:15:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Chicago Bears",
+    "bookmakers": []
+  },
+  {
+    "id": "d7540f72ab4eb86f114957c27479da24",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-01T01:15:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": []
+  },
+  {
+    "id": "da4df5ecb534454b366e047b1909e1bb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T18:00:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": []
+  },
+  {
+    "id": "8adf20ae245b218aa0f008be93442a19",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T18:00:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": []
+  },
+  {
+    "id": "43df28defee70f608e4cf44f51c3c351",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T18:00:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Carolina Panthers",
+    "bookmakers": []
+  },
+  {
+    "id": "6fc01a89cf5bae999598f9225e7b5395",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Detroit Lions",
+    "bookmakers": []
+  },
+  {
+    "id": "17de8321bec85ed9b88c7e6dfbe888cb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T18:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": []
+  },
+  {
+    "id": "aee7b722e1c8ea7e70d3dc4165b8d48e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T18:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": []
+  },
+  {
+    "id": "089920e73e430bb5d024d9c29db8a883",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T18:00:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Miami Dolphins",
+    "bookmakers": []
+  },
+  {
+    "id": "513f5128a7e077220de27f90cf74d0b1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T21:05:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Denver Broncos",
+    "bookmakers": []
+  },
+  {
+    "id": "86ee09d4c44f642da97bdf904e42cd33",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T21:25:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Cleveland Browns",
+    "bookmakers": []
+  },
+  {
+    "id": "82d14fb40e354c3d284b289811889f70",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-03T21:25:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.75
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 2.1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "73c12aabdca5d275a8f7d4976ebafefb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-04T01:20:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": []
+  },
+  {
+    "id": "e711be87e932b2966c41267b7a299443",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-05T01:15:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": []
+  },
+  {
+    "id": "5cce27e21334ba42df04ac29f2977e71",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-08T01:15:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "New England Patriots",
+    "bookmakers": []
+  },
+  {
+    "id": "dd0d1a2a2bb2d58d301cd06e5dad5f28",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T18:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": []
+  },
+  {
+    "id": "82734cac4ffb5c36e55d0b5dd6bc62f8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T18:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": []
+  },
+  {
+    "id": "3b8a92f0c6aad6a45cae526f599eb1c7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Carolina Panthers",
+    "bookmakers": []
+  },
+  {
+    "id": "3ac4b1f2daf3861598855136510a06b2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T18:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Detroit Lions",
+    "bookmakers": []
+  },
+  {
+    "id": "d1ff686069aa7904e58bbf45df3d1a2e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T18:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": []
+  },
+  {
+    "id": "156a01a54bcfbadd7ec386f6bfc69e05",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T18:00:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": []
+  },
+  {
+    "id": "ad9641812be259565c9f27efacbd6078",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T18:00:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Houston Texans",
+    "bookmakers": []
+  },
+  {
+    "id": "8ee6d1afcfe789027f4a47ab28ad4469",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T21:05:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": []
+  },
+  {
+    "id": "2dd1e52f6b672077ef0f43b1a21ca99b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T21:05:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": []
+  },
+  {
+    "id": "fabf99248cbd6d238205316b95fd6531",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T21:25:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Buffalo Bills",
+    "bookmakers": []
+  },
+  {
+    "id": "f8ad203043021473d24d841674bc8c0b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-10T21:25:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Denver Broncos",
+    "bookmakers": []
+  },
+  {
+    "id": "15c22a0f8e399f03166e4aa18dba1442",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-11T01:20:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": []
+  },
+  {
+    "id": "a97513c4dd8f7d93cac9103d8ec05321",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-12T01:15:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Green Bay Packers",
+    "bookmakers": []
+  },
+  {
+    "id": "c40dc7a9fd086418ca6fa7196455d48b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-12T01:15:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Tennessee Titans",
+    "bookmakers": []
+  },
+  {
+    "id": "72a6214a3f806871b60e04ee1f977abe",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-15T01:25:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": []
+  },
+  {
+    "id": "89a76d31332effa87075701f164a8e0a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T18:00:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": []
+  },
+  {
+    "id": "abf4a23e7c6b9dd94d13a3070a32a65f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T18:00:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Chicago Bears",
+    "bookmakers": []
+  },
+  {
+    "id": "485ddf88b211b7e285fb32a8525870c6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T18:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": []
+  },
+  {
+    "id": "7ede0a7d8b6a25ea54efe6e06f118c23",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T18:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Denver Broncos",
+    "bookmakers": []
+  },
+  {
+    "id": "3c35ab18ec14298b28d7881f50bb503d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T18:00:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": []
+  },
+  {
+    "id": "e3f50249e8a9b42484ad0922fca4f9f0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T18:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Houston Texans",
+    "bookmakers": []
+  },
+  {
+    "id": "197a147aadc3cada5add424e6f1eebe1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T18:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": []
+  },
+  {
+    "id": "de64df56de3a6998f152879e68fee61c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T18:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "New York Jets",
+    "bookmakers": []
+  },
+  {
+    "id": "7b6d45589b0b3574467016598d568360",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "New York Giants",
+    "bookmakers": []
+  },
+  {
+    "id": "d2e02edc27163741a907439f1dafd4c2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T21:05:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": []
+  },
+  {
+    "id": "9bc500255b9296f3a5d5d7f48d2daa1b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T21:05:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "Washington Commanders",
+    "bookmakers": []
+  },
+  {
+    "id": "b4a925302ef4769f63a996a6ba6548e0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T21:25:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": []
+  },
+  {
+    "id": "7856ae92af5a45990c0673041c46917b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-17T21:25:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": []
+  },
+  {
+    "id": "16e008b59e9500b9abe023027589a9f3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-18T01:20:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": []
+  },
+  {
+    "id": "7a1a8c9bc432ca71251b70e6d48a66f2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-19T01:15:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": []
+  },
+  {
+    "id": "367bff42c53fcaf14e67e0d7b5039caf",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-22T01:15:00Z",
+    "home_team": "Los Angeles Rams",
+    "away_team": "New Orleans Saints",
+    "bookmakers": []
+  },
+  {
+    "id": "b99a12370b4b0a34cde90d66f19b4841",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-23T21:30:00Z",
+    "home_team": "Pittsburgh Steelers",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": []
+  },
+  {
+    "id": "e9b7a2bd656d7bd9751f7733c4461e44",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T01:00:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Buffalo Bills",
+    "bookmakers": []
+  },
+  {
+    "id": "ecb892aebc050557167247680477b868",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T18:00:00Z",
+    "home_team": "Atlanta Falcons",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": []
+  },
+  {
+    "id": "8895b324299a6ba93024193432787fe0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T18:00:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Green Bay Packers",
+    "bookmakers": []
+  },
+  {
+    "id": "f96814d9bb322787509bf34eac240d4c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T18:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Cleveland Browns",
+    "bookmakers": []
+  },
+  {
+    "id": "845d66294b092dcf762e30d256071de2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T18:00:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Detroit Lions",
+    "bookmakers": []
+  },
+  {
+    "id": "7801138a89d2fb0eb1f9500de34b82dc",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T18:00:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Washington Commanders",
+    "bookmakers": []
+  },
+  {
+    "id": "a14cf0f440a1f6f15410af16b2920b4f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T18:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": []
+  },
+  {
+    "id": "f34688f283c8d4a50e84fc9d2299cf4e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T21:05:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": []
+  },
+  {
+    "id": "793583c7b8fa2b8e3f17c2e3253c86c5",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T21:25:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": []
+  },
+  {
+    "id": "e971bb853e8eaf4c0f40935d4525957c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-24T21:25:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": []
+  },
+  {
+    "id": "e999a4de5604cbc2af55b2010f856f15",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-25T01:15:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "New England Patriots",
+    "bookmakers": []
+  },
+  {
+    "id": "59c8bd2fa1948c845052fda86bb3f069",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-25T18:00:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.23
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 4.26
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7a6b5b8bd0e84653e82663d8e6cf2073",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-25T21:30:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T04:52:05Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:05Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 3.65
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 3.75
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "New York Giants",
+                "price": 3.66
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "64ba138ea09d9cbeb47efa72853b8851",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-26T01:15:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Baltimore Ravens",
+    "bookmakers": []
+  },
+  {
+    "id": "856010af3973ce10b0dd20f7dfc50fb6",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-29T01:15:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "New York Jets",
+    "bookmakers": []
+  },
+  {
+    "id": "e282b9dedc7fbb32af43dcd2c0514ddf",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T01:15:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Detroit Lions",
+    "bookmakers": []
+  },
+  {
+    "id": "4d4d86d9f4dd6d1ec9668f2688c1e5ab",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:00:00Z",
+    "home_team": "Philadelphia Eagles",
+    "away_team": "Arizona Cardinals",
+    "bookmakers": []
+  },
+  {
+    "id": "04a8a0b984c5853cc74b3f7aa350169d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": []
+  },
+  {
+    "id": "10c45d3ea3c7306b41f67688c09df290",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Miami Dolphins",
+    "bookmakers": []
+  },
+  {
+    "id": "51a3c6804628bc320376f1281759cd59",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:00:00Z",
+    "home_team": "Buffalo Bills",
+    "away_team": "New England Patriots",
+    "bookmakers": []
+  },
+  {
+    "id": "602c8cf4f855e05b7152132385c64764",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:00:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Carolina Panthers",
+    "bookmakers": []
+  },
+  {
+    "id": "1eefaa757efae485b1164d514ef95c72",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:00:00Z",
+    "home_team": "Houston Texans",
+    "away_team": "Tennessee Titans",
+    "bookmakers": []
+  },
+  {
+    "id": "c51bb08e156ab70ece4fbe9fd5940f83",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": []
+  },
+  {
+    "id": "ce87a09be92b462d19b0f27b492fddf3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:00:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": []
+  },
+  {
+    "id": "4d2f7e87a11b1c3ab93a1d15a8e4364c",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:00:00Z",
+    "home_team": "Tampa Bay Buccaneers",
+    "away_team": "New Orleans Saints",
+    "bookmakers": []
+  },
+  {
+    "id": "ad47ab0f0e3c4d2519f66e2a52dd41bb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T18:00:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "San Francisco 49ers",
+    "bookmakers": []
+  },
+  {
+    "id": "5571cbd8990b1bc4c2a429639a8b0a32",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T21:05:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": []
+  },
+  {
+    "id": "e32c10e6badda5bfc59723e9f241c473",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T21:25:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Cincinnati Bengals",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T04:52:26Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:26Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 2.4
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T04:52:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:52:19Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 2.46
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.55
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "77eb1298fbb74f758d38fbcf2a78db87",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2023-12-31T21:25:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "Los Angeles Chargers",
+    "bookmakers": []
+  },
+  {
+    "id": "b950b56a70f8e6d04b7ece50ecc521cd",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-01T01:20:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Green Bay Packers",
+    "bookmakers": []
+  },
+  {
+    "id": "f7dbd9adf6376fd78dd6b4d5c084a6e7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Seattle Seahawks",
+    "bookmakers": []
+  },
+  {
+    "id": "794e49c4f03306ab9c79cb84fcc2b0ac",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "New Orleans Saints",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": []
+  },
+  {
+    "id": "f5160997517aa6f8f1876ee7e84f227e",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Baltimore Ravens",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": []
+  },
+  {
+    "id": "67e16ea28bc3ffc1495ae7656fbdfbe0",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Miami Dolphins",
+    "away_team": "Buffalo Bills",
+    "bookmakers": []
+  },
+  {
+    "id": "50c6ec417a0a3cb00945bee203ecccad",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Carolina Panthers",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": []
+  },
+  {
+    "id": "2b2da592b91fb61473aed5b4fe975254",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Green Bay Packers",
+    "away_team": "Chicago Bears",
+    "bookmakers": []
+  },
+  {
+    "id": "3b2ca03d8a1c87413dda744594de7c81",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Cleveland Browns",
+    "bookmakers": []
+  },
+  {
+    "id": "d7e8bbb2997c341248c04ec59abb94fb",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Washington Commanders",
+    "away_team": "Dallas Cowboys",
+    "bookmakers": []
+  },
+  {
+    "id": "0a2ff22cc0b88ac0a5224c1b9c85d1fa",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Las Vegas Raiders",
+    "away_team": "Denver Broncos",
+    "bookmakers": []
+  },
+  {
+    "id": "496f13fad931ff29fedc1b3b09135cb4",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Minnesota Vikings",
+    "bookmakers": []
+  },
+  {
+    "id": "b16bb8cafa6e4b81fc6b06115f201f26",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Indianapolis Colts",
+    "away_team": "Houston Texans",
+    "bookmakers": []
+  },
+  {
+    "id": "634a1542db2328ac7ae7660079075e62",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "Jacksonville Jaguars",
+    "bookmakers": []
+  },
+  {
+    "id": "24788089774532d6fe34b7f047f361e7",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Kansas City Chiefs",
+    "bookmakers": []
+  },
+  {
+    "id": "fb5a05459a7e5616f95e2caa7732c20f",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "New England Patriots",
+    "away_team": "New York Jets",
+    "bookmakers": []
+  },
+  {
+    "id": "66c7e39643ecae341addae9fff981d0b",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T18:00:00Z",
+    "home_team": "New York Giants",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": []
+  },
+  {
+    "id": "52c6f0c38ee6458d03e5caffe56af385",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2024-01-07T21:00:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": []
+  }
+]

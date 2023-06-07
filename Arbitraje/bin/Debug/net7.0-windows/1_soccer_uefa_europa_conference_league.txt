@@ -1,0 +1,262 @@
+[
+  {
+    "id": "e37824edd19e75978c5a8a972c68c4e0",
+    "sport_key": "soccer_uefa_europa_conference_league",
+    "sport_title": "UEFA Europa Conference League",
+    "commence_time": "2023-06-07T19:00:00Z",
+    "home_team": "Fiorentina",
+    "away_team": "West Ham United",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T05:00:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:10Z",
+            "outcomes": [
+              {
+                "name": "Fiorentina",
+                "price": 2.7
+              },
+              {
+                "name": "West Ham United",
+                "price": 2.7
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T05:01:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:01:28Z",
+            "outcomes": [
+              {
+                "name": "Fiorentina",
+                "price": 2.75
+              },
+              {
+                "name": "West Ham United",
+                "price": 2.62
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T05:00:16Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:16Z",
+            "outcomes": [
+              {
+                "name": "Fiorentina",
+                "price": 2.78
+              },
+              {
+                "name": "West Ham United",
+                "price": 2.68
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T05:00:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:10Z",
+            "outcomes": [
+              {
+                "name": "Fiorentina",
+                "price": 2.72
+              },
+              {
+                "name": "West Ham United",
+                "price": 2.69
+              },
+              {
+                "name": "Draw",
+                "price": 3.22
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T05:01:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:01:18Z",
+            "outcomes": [
+              {
+                "name": "Fiorentina",
+                "price": 2.76
+              },
+              {
+                "name": "West Ham United",
+                "price": 2.67
+              },
+              {
+                "name": "Draw",
+                "price": 3.16
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "suprabets",
+        "title": "Suprabets",
+        "last_update": "2023-06-07T04:57:33Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:57:33Z",
+            "outcomes": [
+              {
+                "name": "Fiorentina",
+                "price": 2.82
+              },
+              {
+                "name": "West Ham United",
+                "price": 2.79
+              },
+              {
+                "name": "Draw",
+                "price": 3.16
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T05:00:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:19Z",
+            "outcomes": [
+              {
+                "name": "Fiorentina",
+                "price": 2.8
+              },
+              {
+                "name": "West Ham United",
+                "price": 2.7
+              },
+              {
+                "name": "Draw",
+                "price": 3.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:59:29Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:59:29Z",
+            "outcomes": [
+              {
+                "name": "Fiorentina",
+                "price": 2.85
+              },
+              {
+                "name": "West Ham United",
+                "price": 2.76
+              },
+              {
+                "name": "Draw",
+                "price": 3.19
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-06-07T05:00:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:36Z",
+            "outcomes": [
+              {
+                "name": "Fiorentina",
+                "price": 2.77
+              },
+              {
+                "name": "West Ham United",
+                "price": 2.77
+              },
+              {
+                "name": "Draw",
+                "price": 3.19
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T04:59:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:59:39Z",
+            "outcomes": [
+              {
+                "name": "Fiorentina",
+                "price": 2.62
+              },
+              {
+                "name": "West Ham United",
+                "price": 2.6
+              },
+              {
+                "name": "Draw",
+                "price": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

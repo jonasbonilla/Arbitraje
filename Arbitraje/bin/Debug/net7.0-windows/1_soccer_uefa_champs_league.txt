@@ -1,0 +1,423 @@
+[
+  {
+    "id": "ba1095e5436b535cfc0da861c2da1151",
+    "sport_key": "soccer_uefa_champs_league",
+    "sport_title": "UEFA Champions",
+    "commence_time": "2023-06-10T19:00:00Z",
+    "home_team": "Manchester City",
+    "away_team": "Internazionale Milano",
+    "bookmakers": [
+      {
+        "key": "unibet_eu",
+        "title": "Unibet",
+        "last_update": "2023-06-07T05:00:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:19Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 7.5
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.48
+              },
+              {
+                "name": "Draw",
+                "price": 4.9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2023-06-07T04:58:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:58:53Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 6.92
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.48
+              },
+              {
+                "name": "Draw",
+                "price": 4.73
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "matchbook",
+        "title": "Matchbook",
+        "last_update": "2023-06-07T04:59:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:59:15Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 7.4
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.51
+              },
+              {
+                "name": "Draw",
+                "price": 4.9
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-06-07T04:59:15Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 7.6
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.52
+              },
+              {
+                "name": "Draw",
+                "price": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2023-06-07T04:59:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:59:10Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 7.4
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.51
+              },
+              {
+                "name": "Draw",
+                "price": 4.8
+              }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "last_update": "2023-06-07T04:59:10Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 7.6
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.52
+              },
+              {
+                "name": "Draw",
+                "price": 4.9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2023-06-07T05:00:49Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:49Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 7.5
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.4
+              },
+              {
+                "name": "Draw",
+                "price": 4.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2023-06-07T05:00:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:21Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 6.6
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.47
+              },
+              {
+                "name": "Draw",
+                "price": 4.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "suprabets",
+        "title": "Suprabets",
+        "last_update": "2023-06-07T04:58:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:58:18Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 7
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.51
+              },
+              {
+                "name": "Draw",
+                "price": 4.9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2023-06-07T04:57:35Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:57:35Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 6.5
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.44
+              },
+              {
+                "name": "Draw",
+                "price": 4.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2023-06-07T05:00:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:19Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 7.1
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.49
+              },
+              {
+                "name": "Draw",
+                "price": 4.88
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2023-06-07T05:00:21Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:21Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 6.6
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.47
+              },
+              {
+                "name": "Draw",
+                "price": 4.62
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "nordicbet",
+        "title": "Nordic Bet",
+        "last_update": "2023-06-07T05:00:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:15Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 5.85
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.52
+              },
+              {
+                "name": "Draw",
+                "price": 4.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betsson",
+        "title": "Betsson",
+        "last_update": "2023-06-07T05:00:19Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:19Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 5.85
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.52
+              },
+              {
+                "name": "Draw",
+                "price": 4.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2023-06-07T05:00:30Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:30Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 7.2
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.51
+              },
+              {
+                "name": "Draw",
+                "price": 4.95
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2023-06-07T05:00:17Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T05:00:17Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 6.9
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.48
+              },
+              {
+                "name": "Draw",
+                "price": 4.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "coolbet",
+        "title": "Coolbet",
+        "last_update": "2023-06-07T04:59:15Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2023-06-07T04:59:15Z",
+            "outcomes": [
+              {
+                "name": "Internazionale Milano",
+                "price": 6.75
+              },
+              {
+                "name": "Manchester City",
+                "price": 1.49
+              },
+              {
+                "name": "Draw",
+                "price": 4.75
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
