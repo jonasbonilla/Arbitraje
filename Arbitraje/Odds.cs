@@ -1,5 +1,5 @@
 using Arbitraje.Models;
-using Newtonsoft.Json; 
+using Newtonsoft.Json;
 
 namespace Arbitraje
 {
@@ -9,44 +9,53 @@ namespace Arbitraje
         string baseUrl = "https://api.the-odds-api.com/v4";
         HttpClient _client;
 
-        List<Sport> _listaDeportes;
-        List<BettingHouse> _casasDeApuestas;
-        List<BettingMarkets> _marcadores;
-        List<Game> _juegos;
+        List<Sport> _listSports;
+        List<BettingHouse> _listBettingHouse;
+        List<BettingMarkets> _listBettingMarkets;
+        List<Game> _listGames;
 
         public Odds()
         {
             InitializeComponent();
-            pnlLoading.BringToFront();
 
             _client = new HttpClient();
+
+            _listSports = new List<Sport>();
+            _listBettingHouse = new List<BettingHouse>();
+            _listBettingMarkets = new List<BettingMarkets>();
+            _listGames = new List<Game>();
+
+            // fecha
+            var hoy = DateTime.Now;
+            dtpDateFrom.Value = new DateTime(hoy.Year, hoy.Month, hoy.Day, 0, 0, 0);
+            dtpDateTo.Value = new DateTime(hoy.Year, hoy.Month, hoy.Day + 1, 0, 0, 0);
+            pnlLoading.BringToFront();
         }
 
         private async Task Inicializar()
-        {
+        { 
             // obtener casas de apuesta
-            _casasDeApuestas = await GetBettingHouses();
-            cbxBookmarkers.DataSource = _casasDeApuestas.OrderBy(x => x.bookmaker).ToList();
+            _listBettingHouse = await GetBettingHouses();
+            cbxBookmarkers.DataSource = _listBettingHouse.OrderBy(x => x.region_key).ThenBy(y => y.bookmaker).ToList();
             cbxBookmarkers.ValueMember = nameof(BettingHouse.bookmaker_key);
             cbxBookmarkers.DisplayMember = nameof(BettingHouse.DisplayName);
 
             // obtener marcadores
-            _marcadores = await GetBettingMarkets();
-            cbxBettingMarket.DataSource = _marcadores.OrderBy(x => x.market_name).ToList();
+            _listBettingMarkets = await GetBettingMarkets();
+            cbxBettingMarket.DataSource = _listBettingMarkets.OrderBy(x => x.market_name).ToList();
             cbxBettingMarket.ValueMember = nameof(BettingMarkets.market_key);
             cbxBettingMarket.DisplayMember = nameof(BettingMarkets.market_name);
 
             // Obtener deportes
-            _listaDeportes = await GetSports(baseUrl, apiKey);
-            if (_listaDeportes.Count == 0)
+            _listSports = await GetSports(baseUrl, apiKey);
+            if (_listSports.Count == 0)
             {
                 MessageBox.Show("Error al obtenrer lista de deportes");
                 return;
             }
 
-            var grupos = _listaDeportes.GroupBy(x => x.group).ToList();
-
             // grupos
+            var grupos = _listSports.GroupBy(x => x.group).ToList();
             cbxGroup.DataSource = grupos;
             cbxGroup.ValueMember = nameof(Sport.key);
             cbxGroup.DisplayMember = nameof(Sport.description);
@@ -63,10 +72,31 @@ namespace Arbitraje
         {
             // deportes
             if (cbxGroup.SelectedValue == null) return;
-            cbxSports.DataSource = _listaDeportes.FindAll(x => x.group.ToUpper().Equals(cbxGroup.SelectedValue.ToString().ToUpper()));
+            cbxSports.DataSource = _listSports.OrderBy(x=>x.description).ToList().FindAll(x => x.group.ToUpper().Equals(cbxGroup.SelectedValue.ToString().ToUpper()));
             cbxSports.ValueMember = nameof(Sport.key);
             cbxSports.DisplayMember = nameof(Sport.description);
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         private async void button1_Click(object sender, EventArgs e)
         {
@@ -78,22 +108,22 @@ namespace Arbitraje
 
             // Ejemplo de uso del método GetOdds con valores personalizados
             string sport = cbxSports.SelectedValue.ToString(); // UN SOLO GRUPO, UNA SOLA CATEGORIA
-            string regions = _casasDeApuestas.Find(x => x.bookmaker_key == cbxBookmarkers.SelectedValue.ToString()).region_key; // eu - se puede concatenar
+            string regions = _listBettingHouse.Find(x => x.bookmaker_key == cbxBookmarkers.SelectedValue.ToString()).region_key; // eu - se puede concatenar
             string markets = cbxBettingMarket.SelectedValue.ToString(); // H2H - se puede concatenar
 
             // consultamos juegos
             txtResponse.Clear();
-            _juegos = await GetGames(baseUrl, apiKey, sport, regions, markets);
-            if (_juegos.Count == 0)
+            _listGames = await GetGames(baseUrl, apiKey, sport, regions, markets);
+            if (_listGames.Count == 0)
             {
                 MessageBox.Show("Error al obtenrer lista de juegos");
                 return;
             }
 
             // filtramos games by bookmarket - obtiene todos los juegos cuyo bookmaker sea "xxx"
-            var hoy = DateTime.Now;
-            var selectedBookmaker = _casasDeApuestas.Find(x => x.bookmaker_key == cbxBookmarkers.SelectedValue.ToString());
-            var gamesFromBookmaker = _juegos
+           
+            var selectedBookmaker = _listBettingHouse.Find(x => x.bookmaker_key == cbxBookmarkers.SelectedValue.ToString());
+            var gamesFromBookmaker = _listGames
                 .Select(game => new Game
                 {
                     id = game.id,
@@ -117,17 +147,12 @@ namespace Arbitraje
             }
 
 
-
-
-
-
-
             //  Mostrar los juegos filtrados (todo)
             var eventos = new List<FootballEvent>();
             foreach (Game game in gamesFromBookmaker)
-            { 
+            {
                 foreach (Bookmaker bookmaker in game.bookmakers)
-                {  
+                {
                     eventos.Add(new FootballEvent
                     {
                         Bookmaker = bookmaker.key,
@@ -137,15 +162,9 @@ namespace Arbitraje
                         HomeOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == game.home_team.Trim()).price,
                         AwayOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == game.away_team.Trim()).price,
                         //DrawOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == "Draw").price,
-                    }); 
+                    });
                 }
             }
-
-
-
-
-
-
 
 
             // presento eventos
@@ -165,129 +184,158 @@ namespace Arbitraje
             // El programa presenta en pantalla la mejor oportunidad, la cantidad a invertir en cada probabilidad y la ganancia esperada.
             // Se asume un capital inicial de $100.
 
-            pnlLoading.Visible = true;
-            var resultp = await ShowProbabilities(eventos);
-            txtResponse.AppendText(resultp);
-            
-            txtResponse.AppendText("\n\n");
-            txtResponse.AppendText("\n\n");
+            //pnlLoading.Visible = true;
+            //var resultp = await ShowProbabilities(eventos);
+            //txtResponse.AppendText(resultp);
+
+            //txtResponse.AppendText("\n\n");
+            //txtResponse.AppendText("\n\n");
 
 
-            // arbitraje para la misma casa
-            var arbitrageResults1 = await CalculateArbitrage1(eventos, 100m);
-            foreach (var result in arbitrageResults1) txtResponse.AppendText(result);
+            //// arbitraje para la misma casa
+            //var arbitrageResults1 = await CalculateArbitrage1(eventos, 100m);
+            //foreach (var result in arbitrageResults1) txtResponse.AppendText(result);
 
-            txtResponse.AppendText("\n\n");
-            txtResponse.AppendText("\n\n");
+            //txtResponse.AppendText("\n\n");
+            //txtResponse.AppendText("\n\n");
 
-            // arbitraje para la diferentes casas
-            var arbitrageResults2 = await CalculateArbitrageX(eventos, 100m);
-            foreach (var result in arbitrageResults2) txtResponse.AppendText(result);
+            //// arbitraje para la diferentes casas
+            //var arbitrageResults2 = await CalculateArbitrageX(eventos, 100m);
+            //foreach (var result in arbitrageResults2) txtResponse.AppendText(result);
 
-            pnlLoading.Visible = false;
+            //pnlLoading.Visible = false;
         }
 
         private async Task<List<BettingHouse>> GetBettingHouses()
         {
-            // https://the-odds-api.com/sports-odds-data/bookmaker-apis.html
+            // For updates - https://the-odds-api.com/sports-odds-data/bookmaker-apis.html
             List<BettingHouse> result;
             try
-            {
-                string filePath = "betting_houses.txt";
-                string json = File.ReadAllText(filePath);
-                result = JsonConvert.DeserializeObject<List<BettingHouse>>(json);
+            { 
+                string jsonText = File.ReadAllText("betting_houses.txt");
+                result = JsonConvert.DeserializeObject<List<BettingHouse>>(jsonText);
             }
             catch (Exception ex)
             {
                 result = new List<BettingHouse>();
-                Console.WriteLine("Error on GetBookMarkers: " + ex.Message);
+                Console.WriteLine("Error on GetBettingHouses: " + ex.Message);
             }
-
-            // Devolvemos una lista vacía por simplicidad
             return result;
         }
-
+         
         private async Task<List<BettingMarkets>> GetBettingMarkets()
         {
-            // https://the-odds-api.com/sports-odds-data/betting-markets.html
+            // For updates - https://the-odds-api.com/sports-odds-data/betting-markets.html
             List<BettingMarkets> result;
             try
-            {
-                string filePath = "betting_markets.txt";
-                string json = File.ReadAllText(filePath);
-                result = JsonConvert.DeserializeObject<List<BettingMarkets>>(json);
+            { 
+                string jsonText = File.ReadAllText("betting_markets.txt");
+                result = JsonConvert.DeserializeObject<List<BettingMarkets>>(jsonText);
             }
             catch (Exception ex)
             {
                 result = new List<BettingMarkets>();
                 Console.WriteLine("Error on GetBettingMarkets: " + ex.Message);
-            }
-
-            // Devolvemos una lista vacía por simplicidad
+            } 
             return result;
         }
 
-        private async Task<List<Sport>> GetSports(string baseUrl, string ApiKey)
+        private async Task<List<Sport>> GetSports(string baseUrl, string ApiKey, bool fromApi = false)
         {
             List<Sport> result;
             try
             {
-                //// Por API
-                //var url = $"{baseUrl}/sports/?apiKey={ApiKey}";
-                //var response = await _client.GetAsync(url);
-                //response.EnsureSuccessStatusCode();
-                //string json = await response.Content.ReadAsStringAsync();
+                string jsonText;
+                if (fromApi)
+                {
+                    // Por API
+                    var url = $"{baseUrl}/sports/?apiKey={ApiKey}";
+                    var response = await _client.GetAsync(url);
+                    response.EnsureSuccessStatusCode();
+                    jsonText = await response.Content.ReadAsStringAsync();
 
-                //// Escribir al TXT
-                //string filePath = "sports.txt"; // Specify the file path
-                //File.WriteAllText(filePath, json);
-
-                //// Leer del TXT
-                string filePath = "sports.txt";
-                string json = File.ReadAllText(filePath);
-
-                result = JsonConvert.DeserializeObject<List<Sport>>(json);
+                    // Escribir al TXT 
+                    File.WriteAllText("sports.txt", jsonText);
+                }
+                else
+                {
+                    // Leer del TXT
+                    jsonText = File.ReadAllText("sports.txt");
+                }
+                 
+                result = JsonConvert.DeserializeObject<List<Sport>>(jsonText);
             }
             catch (Exception ex)
             {
                 result = new List<Sport>();
                 Console.WriteLine("Error on GetSports: " + ex.Message);
-            }
-
-            // Devolvemos una lista vacía por simplicidad
+            } 
             return result;
         }
 
-        private async Task<List<Game>> GetGames(string baseUrl, string apiKey, string sport, string regions, string markets)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private async Task<List<Game>> GetGames(string baseUrl, string apiKey, string sport, string regions, string markets, bool fromApi = false)
         {
             List<Game> result;
             try
             {
-                //// Por API
-                //var url = $"{baseUrl}/sports/{sport}/odds/?apiKey={apiKey}&regions={regions}&markets={markets}";
-                //var response = await _client.GetAsync(url);
-                //response.EnsureSuccessStatusCode();
-                //string json = await response.Content.ReadAsStringAsync();
+                string jsonText;
+                if (fromApi)
+                {
+                    // Por API
+                    var url = $"{baseUrl}/sports/{sport}/odds/?apiKey={apiKey}&regions={regions}&markets={markets}";
+                    var response = await _client.GetAsync(url);
+                    response.EnsureSuccessStatusCode();
+                    jsonText = await response.Content.ReadAsStringAsync();
 
-                //// Escribir al TXT
-                //string filePath = "soccer_conmebol_copa_libertadores.txt"; // Specify the file path
-                //File.WriteAllText(filePath, json);
-
-                //// Leer del TXT
-                string filePath = $"1_{sport}.txt";
-                string json = File.ReadAllText(filePath);
-
-                result = JsonConvert.DeserializeObject<List<Game>>(json);
+                    // Escribir al TXT 
+                    File.WriteAllText($"{sport}.txt", jsonText);
+                }
+                else
+                {
+                    // Leer del TXT 
+                    jsonText = File.ReadAllText($"{sport}.txt");
+                } 
+                result = JsonConvert.DeserializeObject<List<Game>>(jsonText);
             }
             catch (Exception ex)
             {
                 result = new List<Game>();
                 Console.WriteLine("Error on GetGames: " + ex.Message);
-            }
-
-            // Devolvemos una lista vacía por simplicidad
+            } 
             return result;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         private async Task<string> ShowProbabilities(List<FootballEvent> bets)
         {
@@ -301,7 +349,7 @@ namespace Arbitraje
             }
             return response;
         }
-         
+
         public async Task<List<string>> CalculateArbitrage1(List<FootballEvent> bets, decimal amount)
         {
             List<string> results = new List<string>();

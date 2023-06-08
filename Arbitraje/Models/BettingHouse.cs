@@ -6,6 +6,6 @@
         public string bookmaker_key { get; set; }
         public string bookmaker { get; set; }
 
-        public string DisplayName => $"{region_key} - {bookmaker}";
+        public string DisplayName => $"{bookmaker} ({region_key.ToUpper()})";
     }
 }

@@ -36,6 +36,8 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             pnlArbitraje = new Panel();
+            dtpDateFrom = new DateTimePicker();
+            lblFrom = new Label();
             dtpDateTo = new DateTimePicker();
             lblDate = new Label();
             btnConsultar = new Button();
@@ -44,8 +46,6 @@
             lblBettingMarket = new Label();
             cbxBookmarkers = new ComboBox();
             lblBookmarkers = new Label();
-            lblFrom = new Label();
-            dtpDateFrom = new DateTimePicker();
             pnlLoading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             pnlArbitraje.SuspendLayout();
@@ -56,9 +56,9 @@
             cbxSports.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxSports.FlatStyle = FlatStyle.Flat;
             cbxSports.FormattingEnabled = true;
-            cbxSports.Location = new Point(346, 13);
+            cbxSports.Location = new Point(345, 13);
             cbxSports.Name = "cbxSports";
-            cbxSports.Size = new Size(266, 23);
+            cbxSports.Size = new Size(267, 23);
             cbxSports.TabIndex = 2;
             // 
             // lblSports
@@ -66,27 +66,27 @@
             lblSports.AutoSize = true;
             lblSports.Location = new Point(304, 16);
             lblSports.Name = "lblSports";
-            lblSports.Size = new Size(38, 15);
+            lblSports.Size = new Size(35, 15);
             lblSports.TabIndex = 3;
-            lblSports.Text = "Sport:";
+            lblSports.Text = "LIGA:";
             // 
             // lblGroup
             // 
             lblGroup.AutoSize = true;
             lblGroup.Location = new Point(5, 16);
             lblGroup.Name = "lblGroup";
-            lblGroup.Size = new Size(43, 15);
+            lblGroup.Size = new Size(49, 15);
             lblGroup.TabIndex = 5;
-            lblGroup.Text = "Group:";
+            lblGroup.Text = "GRUPO:";
             // 
             // cbxGroup
             // 
             cbxGroup.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxGroup.FlatStyle = FlatStyle.Flat;
             cbxGroup.FormattingEnabled = true;
-            cbxGroup.Location = new Point(54, 13);
+            cbxGroup.Location = new Point(60, 13);
             cbxGroup.Name = "cbxGroup";
-            cbxGroup.Size = new Size(233, 23);
+            cbxGroup.Size = new Size(227, 23);
             cbxGroup.TabIndex = 4;
             cbxGroup.SelectedValueChanged += cbxGroup_SelectedValueChanged;
             // 
@@ -142,11 +142,29 @@
             pnlArbitraje.Size = new Size(624, 440);
             pnlArbitraje.TabIndex = 7;
             // 
+            // dtpDateFrom
+            // 
+            dtpDateFrom.Enabled = false;
+            dtpDateFrom.Location = new Point(38, 85);
+            dtpDateFrom.Name = "dtpDateFrom";
+            dtpDateFrom.Size = new Size(249, 23);
+            dtpDateFrom.TabIndex = 15;
+            dtpDateFrom.Value = new DateTime(2023, 6, 5, 0, 0, 0, 0);
+            // 
+            // lblFrom
+            // 
+            lblFrom.AutoSize = true;
+            lblFrom.Location = new Point(5, 89);
+            lblFrom.Name = "lblFrom";
+            lblFrom.Size = new Size(27, 15);
+            lblFrom.TabIndex = 14;
+            lblFrom.Text = "Del:";
+            // 
             // dtpDateTo
             // 
-            dtpDateTo.Location = new Point(330, 85);
+            dtpDateTo.Location = new Point(331, 85);
             dtpDateTo.Name = "dtpDateTo";
-            dtpDateTo.Size = new Size(282, 23);
+            dtpDateTo.Size = new Size(281, 23);
             dtpDateTo.TabIndex = 13;
             dtpDateTo.Value = new DateTime(2023, 6, 5, 23, 59, 59, 0);
             // 
@@ -155,9 +173,9 @@
             lblDate.AutoSize = true;
             lblDate.Location = new Point(304, 89);
             lblDate.Name = "lblDate";
-            lblDate.Size = new Size(22, 15);
+            lblDate.Size = new Size(21, 15);
             lblDate.TabIndex = 12;
-            lblDate.Text = "To:";
+            lblDate.Text = "Al:";
             // 
             // btnConsultar
             // 
@@ -185,9 +203,9 @@
             cbxBettingMarket.Enabled = false;
             cbxBettingMarket.FlatStyle = FlatStyle.Flat;
             cbxBettingMarket.FormattingEnabled = true;
-            cbxBettingMarket.Location = new Point(398, 56);
+            cbxBettingMarket.Location = new Point(365, 56);
             cbxBettingMarket.Name = "cbxBettingMarket";
-            cbxBettingMarket.Size = new Size(214, 23);
+            cbxBettingMarket.Size = new Size(247, 23);
             cbxBettingMarket.TabIndex = 9;
             // 
             // lblBettingMarket
@@ -195,18 +213,18 @@
             lblBettingMarket.AutoSize = true;
             lblBettingMarket.Location = new Point(304, 59);
             lblBettingMarket.Name = "lblBettingMarket";
-            lblBettingMarket.Size = new Size(93, 15);
+            lblBettingMarket.Size = new Size(55, 15);
             lblBettingMarket.TabIndex = 8;
-            lblBettingMarket.Text = "Betting Markets:";
+            lblBettingMarket.Text = "MARKET:";
             // 
             // cbxBookmarkers
             // 
             cbxBookmarkers.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxBookmarkers.FlatStyle = FlatStyle.Flat;
             cbxBookmarkers.FormattingEnabled = true;
-            cbxBookmarkers.Location = new Point(85, 56);
+            cbxBookmarkers.Location = new Point(95, 56);
             cbxBookmarkers.Name = "cbxBookmarkers";
-            cbxBookmarkers.Size = new Size(202, 23);
+            cbxBookmarkers.Size = new Size(192, 23);
             cbxBookmarkers.TabIndex = 7;
             // 
             // lblBookmarkers
@@ -214,26 +232,9 @@
             lblBookmarkers.AutoSize = true;
             lblBookmarkers.Location = new Point(5, 59);
             lblBookmarkers.Name = "lblBookmarkers";
-            lblBookmarkers.Size = new Size(74, 15);
+            lblBookmarkers.Size = new Size(84, 15);
             lblBookmarkers.TabIndex = 6;
-            lblBookmarkers.Text = "Bookmarker:";
-            // 
-            // lblFrom
-            // 
-            lblFrom.AutoSize = true;
-            lblFrom.Location = new Point(5, 89);
-            lblFrom.Name = "lblFrom";
-            lblFrom.Size = new Size(38, 15);
-            lblFrom.TabIndex = 14;
-            lblFrom.Text = "From:";
-            // 
-            // dtpDateFrom
-            // 
-            dtpDateFrom.Location = new Point(46, 85);
-            dtpDateFrom.Name = "dtpDateFrom";
-            dtpDateFrom.Size = new Size(241, 23);
-            dtpDateFrom.TabIndex = 15;
-            dtpDateFrom.Value = new DateTime(2023, 6, 5, 0, 0, 0, 0);
+            lblBookmarkers.Text = "PLATAFORMA:";
             // 
             // Odds
             // 
@@ -247,7 +248,7 @@
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "Odds";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "The Odds Api";
+            Text = "APUESTAS DEPORTIVAS - ARBITRAJE v1.0";
             Load += Form1_Load;
             pnlLoading.ResumeLayout(false);
             pnlLoading.PerformLayout();
