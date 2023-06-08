@@ -1,5 +1,6 @@
 using Arbitraje.Models;
 using Newtonsoft.Json;
+using System.Diagnostics;
 
 namespace Arbitraje
 {
@@ -33,10 +34,10 @@ namespace Arbitraje
         }
 
         private async Task Inicializar()
-        { 
+        {
             // obtener casas de apuesta
             _listBettingHouse = await GetBettingHouses();
-            cbxBookmarkers.DataSource = _listBettingHouse.OrderBy(x => x.region_key).ThenBy(y => y.bookmaker).ToList();
+            cbxBookmarkers.DataSource = _listBettingHouse.OrderBy(x => x.bookmaker).ThenBy(y => y.region_key).ToList();
             cbxBookmarkers.ValueMember = nameof(BettingHouse.bookmaker_key);
             cbxBookmarkers.DisplayMember = nameof(BettingHouse.DisplayName);
 
@@ -59,6 +60,13 @@ namespace Arbitraje
             cbxGroup.DataSource = grupos;
             cbxGroup.ValueMember = nameof(Sport.key);
             cbxGroup.DisplayMember = nameof(Sport.description);
+
+            //// chcbxGroup.Items.Add(new CheckComboBox.CheckComboBoxItem(grp.description, false));
+            //foreach (var grp in grupos.GetEnumerator())
+            //{
+            //    Debug.WriteLine(grp.description);
+            //}
+
         }
 
         private async void Form1_Load(object sender, EventArgs e)
@@ -72,12 +80,31 @@ namespace Arbitraje
         {
             // deportes
             if (cbxGroup.SelectedValue == null) return;
-            cbxSports.DataSource = _listSports.OrderBy(x=>x.description).ToList().FindAll(x => x.group.ToUpper().Equals(cbxGroup.SelectedValue.ToString().ToUpper()));
+            cbxSports.DataSource = _listSports.OrderBy(x => x.description).ToList().FindAll(x => x.group.ToUpper().Equals(cbxGroup.SelectedValue.ToString().ToUpper()));
             cbxSports.ValueMember = nameof(Sport.key);
             cbxSports.DisplayMember = nameof(Sport.description);
         }
 
-
+        // this message handler gets called when the user checks/unchecks an item the combo box
+        //private void checkComboBox1_CheckStateChanged(object sender, EventArgs e)
+        //{
+        //    if (sender is CheckComboBox.CheckComboBoxItem)
+        //    {
+        //        CheckComboBox.CheckComboBoxItem item = (CheckComboBox.CheckComboBoxItem)sender;
+        //        switch (item.Text)
+        //        {
+        //            case "One":
+        //                checkBox1.Checked = item.CheckState;
+        //                break;
+        //            case "Two":
+        //                checkBox2.Checked = item.CheckState;
+        //                break;
+        //            case "Three":
+        //                checkBox3.Checked = item.CheckState;
+        //                break;
+        //        }
+        //    }
+        //}
 
 
 
@@ -121,7 +148,7 @@ namespace Arbitraje
             }
 
             // filtramos games by bookmarket - obtiene todos los juegos cuyo bookmaker sea "xxx"
-           
+
             var selectedBookmaker = _listBettingHouse.Find(x => x.bookmaker_key == cbxBookmarkers.SelectedValue.ToString());
             var gamesFromBookmaker = _listGames
                 .Select(game => new Game
@@ -211,7 +238,7 @@ namespace Arbitraje
             // For updates - https://the-odds-api.com/sports-odds-data/bookmaker-apis.html
             List<BettingHouse> result;
             try
-            { 
+            {
                 string jsonText = File.ReadAllText("betting_houses.txt");
                 result = JsonConvert.DeserializeObject<List<BettingHouse>>(jsonText);
             }
@@ -222,13 +249,13 @@ namespace Arbitraje
             }
             return result;
         }
-         
+
         private async Task<List<BettingMarkets>> GetBettingMarkets()
         {
             // For updates - https://the-odds-api.com/sports-odds-data/betting-markets.html
             List<BettingMarkets> result;
             try
-            { 
+            {
                 string jsonText = File.ReadAllText("betting_markets.txt");
                 result = JsonConvert.DeserializeObject<List<BettingMarkets>>(jsonText);
             }
@@ -236,7 +263,7 @@ namespace Arbitraje
             {
                 result = new List<BettingMarkets>();
                 Console.WriteLine("Error on GetBettingMarkets: " + ex.Message);
-            } 
+            }
             return result;
         }
 
@@ -262,14 +289,14 @@ namespace Arbitraje
                     // Leer del TXT
                     jsonText = File.ReadAllText("sports.txt");
                 }
-                 
+
                 result = JsonConvert.DeserializeObject<List<Sport>>(jsonText);
             }
             catch (Exception ex)
             {
                 result = new List<Sport>();
                 Console.WriteLine("Error on GetSports: " + ex.Message);
-            } 
+            }
             return result;
         }
 
@@ -308,14 +335,14 @@ namespace Arbitraje
                 {
                     // Leer del TXT 
                     jsonText = File.ReadAllText($"{sport}.txt");
-                } 
+                }
                 result = JsonConvert.DeserializeObject<List<Game>>(jsonText);
             }
             catch (Exception ex)
             {
                 result = new List<Game>();
                 Console.WriteLine("Error on GetGames: " + ex.Message);
-            } 
+            }
             return result;
         }
 
@@ -419,5 +446,167 @@ namespace Arbitraje
             results.Add("No se encontraron oportunidades de arbitraje.");
             return results;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //public class ArbitrageCalculator
+        //{
+        //    private List<SportBet> bets;
+        //    private double capital;
+
+        //    public ArbitrageCalculator(List<SportBet> bets, double capital)
+        //    {
+        //        this.bets = bets;
+        //        this.capital = capital;
+        //    }
+
+        //    public void PerformArbitrage()
+        //    {
+        //        Console.WriteLine("----- PASO 1: Cálculos iniciales -----");
+
+        //        List<double> homeProbabilities = new List<double>();
+        //        List<double> awayProbabilities = new List<double>();
+        //        List<double> homeInverseOdds = new List<double>();
+        //        List<double> awayInverseOdds = new List<double>();
+        //        List<double> totalInverseOdds = new List<double>();
+        //        List<double> homeProfitPercentages = new List<double>();
+        //        List<double> awayProfitPercentages = new List<double>();
+
+        //        foreach (var bet in bets)
+        //        {
+        //            double homeProbability = 1 / bet.HomeOdd;
+        //            double awayProbability = 1 / bet.AwayOdd;
+        //            double homeInverseOdd = 1 / bet.HomeOdd;
+        //            double awayInverseOdd = 1 / bet.AwayOdd;
+        //            double totalInverseOdd = homeInverseOdd + awayInverseOdd;
+        //            double homeProfitPercentage = homeInverseOdd / totalInverseOdd;
+        //            double awayProfitPercentage = awayInverseOdd / totalInverseOdd;
+
+        //            homeProbabilities.Add(homeProbability);
+        //            awayProbabilities.Add(awayProbability);
+        //            homeInverseOdds.Add(homeInverseOdd);
+        //            awayInverseOdds.Add(awayInverseOdd);
+        //            totalInverseOdds.Add(totalInverseOdd);
+        //            homeProfitPercentages.Add(homeProfitPercentage);
+        //            awayProfitPercentages.Add(awayProfitPercentage);
+        //        }
+
+        //        Console.WriteLine();
+
+        //        Console.WriteLine("----- PASO 2: Búsqueda de oportunidades de arbitraje -----");
+
+        //        bool arbitrageFound = false;
+        //        int bet1Index = -1;
+        //        int bet2Index = -1;
+
+        //        for (int i = 0; i < bets.Count; i++)
+        //        {
+        //            for (int j = i + 1; j < bets.Count; j++)
+        //            {
+        //                if (bets[i].HomeTeam == bets[j].AwayTeam && bets[i].AwayTeam == bets[j].HomeTeam)
+        //                {
+        //                    double homeProfitSum = homeProfitPercentages[i] + awayProfitPercentages[j];
+        //                    double awayProfitSum = awayProfitPercentages[i] + homeProfitPercentages[j];
+
+        //                    if (homeProfitSum < 1 && awayProfitSum < 1)
+        //                    {
+        //                        arbitrageFound = true;
+        //                        bet1Index = i;
+        //                        bet2Index = j;
+        //                        break;
+        //                    }
+        //                }
+        //            }
+
+        //            if (arbitrageFound)
+        //                break;
+        //        }
+
+        //        Console.WriteLine();
+
+        //        Console.WriteLine("----- PASO 3: Cálculo de cantidades y ganancias -----");
+
+        //        if (arbitrageFound)
+        //        {
+        //            double bet1Amount = capital * homeProfitPercentages[bet1Index];
+        //            double bet2Amount = capital * awayProfitPercentages[bet2Index];
+        //            double bet1Profit = bet1Amount * homeInverseOdds[bet1Index];
+        //            double bet2Profit = bet2Amount * awayInverseOdds[bet2Index];
+        //            double totalProfit = bet1Profit + bet2Profit;
+
+        //            Console.WriteLine($"Apuesta segura encontrada:");
+
+        //            Console.WriteLine($"Casa de apuestas 1 ({bets[bet1Index].Bookmaker}): Apuesta {bet1Amount.ToString("N2")} a favor de {bets[bet1Index].HomeTeam}");
+        //            Console.WriteLine($"Casa de apuestas 2 ({bets[bet2Index].Bookmaker}): Apuesta {bet2Amount.ToString("N2")} a favor de {bets[bet2Index].AwayTeam}");
+
+        //            Console.WriteLine();
+
+        //            Console.WriteLine($"Ganancia esperada:");
+        //            Console.WriteLine($"- Si gana {bets[bet1Index].HomeTeam}: {bet1Profit.ToString("N2")}");
+        //            Console.WriteLine($"- Si gana {bets[bet2Index].AwayTeam}: {bet2Profit.ToString("N2")}");
+
+        //            Console.WriteLine();
+
+        //            Console.WriteLine($"Ganancia total esperada: {totalProfit.ToString("N2")}");
+        //        }
+        //        else
+        //        {
+        //            Console.WriteLine("No se encontraron oportunidades de arbitraje.");
+        //        }
+        //    }
+        //}
+
+        //public class Program
+        //{
+        //    public static void Main(string[] args)
+        //    {
+        //        List<SportBet> bets = new List<SportBet>()
+        //{
+        //    new SportBet
+        //    {
+        //        Bookmaker = "casa1",
+        //        HomeTeam = "barcelona",
+        //        AwayTeam = "emelec",
+        //        HomeOdd = 1.72,
+        //        AwayOdd = 5
+        //    },
+        //    new SportBet
+        //    {
+        //        Bookmaker = "casa2",
+        //        HomeTeam = "barcelona",
+        //        AwayTeam = "emelec",
+        //        HomeOdd = 1.73,
+        //        AwayOdd = 4.86
+        //    },
+        //    new SportBet
+        //    {
+        //        Bookmaker = "casa3",
+        //        HomeTeam = "barcelona",
+        //        AwayTeam = "emelec",
+        //        HomeOdd = 1.7,
+        //        AwayOdd = 6
+        //    }
+        //};
+
+        //        double capital = 100;
+
+        //        ArbitrageCalculator calculator = new ArbitrageCalculator(bets, capital);
+        //        calculator.PerformArbitrage();
+        //    }
+        //}
+
+
+
+
     }
 }

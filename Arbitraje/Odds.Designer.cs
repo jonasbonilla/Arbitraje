@@ -36,6 +36,7 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             pnlArbitraje = new Panel();
+            chcbxGroup = new CheckComboBox.CheckComboBox();
             dtpDateFrom = new DateTimePicker();
             lblFrom = new Label();
             dtpDateTo = new DateTimePicker();
@@ -123,6 +124,7 @@
             // 
             // pnlArbitraje
             // 
+            pnlArbitraje.Controls.Add(chcbxGroup);
             pnlArbitraje.Controls.Add(dtpDateFrom);
             pnlArbitraje.Controls.Add(lblFrom);
             pnlArbitraje.Controls.Add(dtpDateTo);
@@ -142,10 +144,21 @@
             pnlArbitraje.Size = new Size(624, 440);
             pnlArbitraje.TabIndex = 7;
             // 
+            // chcbxGroup
+            // 
+            chcbxGroup.DrawMode = DrawMode.OwnerDrawFixed;
+            chcbxGroup.DropDownStyle = ComboBoxStyle.DropDownList;
+            chcbxGroup.FlatStyle = FlatStyle.Flat;
+            chcbxGroup.FormattingEnabled = true;
+            chcbxGroup.Location = new Point(95, 128);
+            chcbxGroup.Name = "chcbxGroup";
+            chcbxGroup.Size = new Size(121, 24);
+            chcbxGroup.TabIndex = 16;
+            // 
             // dtpDateFrom
             // 
             dtpDateFrom.Enabled = false;
-            dtpDateFrom.Location = new Point(38, 85);
+            dtpDateFrom.Location = new Point(38, 71);
             dtpDateFrom.Name = "dtpDateFrom";
             dtpDateFrom.Size = new Size(249, 23);
             dtpDateFrom.TabIndex = 15;
@@ -154,7 +167,7 @@
             // lblFrom
             // 
             lblFrom.AutoSize = true;
-            lblFrom.Location = new Point(5, 89);
+            lblFrom.Location = new Point(5, 75);
             lblFrom.Name = "lblFrom";
             lblFrom.Size = new Size(27, 15);
             lblFrom.TabIndex = 14;
@@ -162,7 +175,7 @@
             // 
             // dtpDateTo
             // 
-            dtpDateTo.Location = new Point(331, 85);
+            dtpDateTo.Location = new Point(331, 71);
             dtpDateTo.Name = "dtpDateTo";
             dtpDateTo.Size = new Size(281, 23);
             dtpDateTo.TabIndex = 13;
@@ -171,7 +184,7 @@
             // lblDate
             // 
             lblDate.AutoSize = true;
-            lblDate.Location = new Point(304, 89);
+            lblDate.Location = new Point(304, 75);
             lblDate.Name = "lblDate";
             lblDate.Size = new Size(21, 15);
             lblDate.TabIndex = 12;
@@ -191,9 +204,9 @@
             // txtResponse
             // 
             txtResponse.BorderStyle = BorderStyle.None;
-            txtResponse.Location = new Point(30, 114);
+            txtResponse.Location = new Point(12, 213);
             txtResponse.Name = "txtResponse";
-            txtResponse.Size = new Size(582, 284);
+            txtResponse.Size = new Size(600, 171);
             txtResponse.TabIndex = 10;
             txtResponse.Text = "";
             // 
@@ -203,7 +216,7 @@
             cbxBettingMarket.Enabled = false;
             cbxBettingMarket.FlatStyle = FlatStyle.Flat;
             cbxBettingMarket.FormattingEnabled = true;
-            cbxBettingMarket.Location = new Point(365, 56);
+            cbxBettingMarket.Location = new Point(365, 42);
             cbxBettingMarket.Name = "cbxBettingMarket";
             cbxBettingMarket.Size = new Size(247, 23);
             cbxBettingMarket.TabIndex = 9;
@@ -211,7 +224,7 @@
             // lblBettingMarket
             // 
             lblBettingMarket.AutoSize = true;
-            lblBettingMarket.Location = new Point(304, 59);
+            lblBettingMarket.Location = new Point(304, 45);
             lblBettingMarket.Name = "lblBettingMarket";
             lblBettingMarket.Size = new Size(55, 15);
             lblBettingMarket.TabIndex = 8;
@@ -222,7 +235,7 @@
             cbxBookmarkers.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxBookmarkers.FlatStyle = FlatStyle.Flat;
             cbxBookmarkers.FormattingEnabled = true;
-            cbxBookmarkers.Location = new Point(95, 56);
+            cbxBookmarkers.Location = new Point(95, 42);
             cbxBookmarkers.Name = "cbxBookmarkers";
             cbxBookmarkers.Size = new Size(192, 23);
             cbxBookmarkers.TabIndex = 7;
@@ -230,7 +243,7 @@
             // lblBookmarkers
             // 
             lblBookmarkers.AutoSize = true;
-            lblBookmarkers.Location = new Point(5, 59);
+            lblBookmarkers.Location = new Point(5, 45);
             lblBookmarkers.Name = "lblBookmarkers";
             lblBookmarkers.Size = new Size(84, 15);
             lblBookmarkers.TabIndex = 6;
@@ -277,5 +290,6 @@
         private Label lblDate;
         private DateTimePicker dtpDateFrom;
         private Label lblFrom;
+        private CheckComboBox.CheckComboBox chcbxGroup;
     }
 }
