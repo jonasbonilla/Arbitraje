@@ -1,6 +1,8 @@
 using Arbitraje.Models;
 using Newtonsoft.Json;
+using System.Diagnostics;
 using System.Drawing;
+using System.Windows.Forms;
 
 namespace Arbitraje
 {
@@ -34,7 +36,6 @@ namespace Arbitraje
             _bmNames = new List<string>();
 
             dtpDateFrom.Value = new DateTime(hoy.Year, hoy.Month, hoy.Day, 0, 0, 0);
-            dtpDateFrom.Enabled = false;
 
             dtpDateTo.Value = new DateTime(hoy.Year, hoy.Month, hoy.Day + 1, 0, 0, 0);
             pnlLoading.BringToFront();
@@ -53,6 +54,12 @@ namespace Arbitraje
             _regiones.Clear();
             _listBettingHouse = (await GetBettingHouses()).OrderBy(x => x.bookmaker_key).ThenBy(x => x.region_key).ToList();
             foreach (var bookmark in _listBettingHouse) chkBookmarkers.Items.Add(bookmark.DisplayName);
+
+            // regiones
+            cbxRegiones.Items.Add("-- TODOS --");
+            var allRegions = _listBettingHouse.OrderBy(x => x.region_key).Select(b => b.region_key).Distinct().ToList();
+            foreach (var region in allRegions) cbxRegiones.Items.Add($"{region.ToUpper()} - {RegionToCountry(region)}");
+            cbxRegiones.SelectedIndex = 0;
 
             // obtener marcadores
             _listBettingMarkets = await GetBettingMarkets();
@@ -84,69 +91,14 @@ namespace Arbitraje
             cbxSports.DisplayMember = nameof(Sport.description);
         }
 
-        private void ObtenerChkBookmarkers()
+        private async void cbxRegiones_SelectedIndexChanged(object sender, EventArgs e)
         {
-            _regiones.Clear();
-            lblRegiones.Text = string.Empty;
-            string bmKey;
-            string bmName;
-            string region;
-            foreach (var check in chkBookmarkers.CheckedItems)
-            {
-                bmName = check.ToString().Split('(')[0].Trim().ToLower();
-                region = check.ToString().Split('(')[1].Replace(')', ' ').Trim().ToLower();
-                bmKey = _listBettingHouse.Find(x => x.bookmaker.Trim().ToLower() == bmName && x.region_key.Trim().ToLower() == region).bookmaker_key.Trim().ToLower();
-
-                if (!_regiones.Contains(region))
-                {
-                    _regiones.Add(region);
-                    if (!_bmNames.Contains(bmKey)) _bmNames.Add(bmKey);
-                    lblRegiones.Text += $"{region},";
-                }
-            }
-            if (lblRegiones.Text.EndsWith(',')) lblRegiones.Text = lblRegiones.Text.Substring(0, lblRegiones.Text.Length - 1);
+            chkBookmarkers.Items.Clear();
+            if (cbxRegiones.SelectedItem == null) return;
+            var filteredBttingHouses = cbxRegiones.SelectedIndex == 0 ? _listBettingHouse :
+                _listBettingHouse.FindAll(x => x.region_key == cbxRegiones.SelectedItem?.ToString().Split('-')[0].Trim().ToLower());
+            foreach (var bookmark in filteredBttingHouses) chkBookmarkers.Items.Add(bookmark.DisplayName);
         }
-
-
-        // this message handler gets called when the user checks/unchecks an item the combo box
-        //private void checkComboBox1_CheckStateChanged(object sender, EventArgs e)
-        //{
-        //    if (sender is CheckComboBox.CheckComboBoxItem)
-        //    {
-        //        CheckComboBox.CheckComboBoxItem item = (CheckComboBox.CheckComboBoxItem)sender;
-        //        switch (item.Text)
-        //        {
-        //            case "One":
-        //                checkBox1.Checked = item.CheckState;
-        //                break;
-        //            case "Two":
-        //                checkBox2.Checked = item.CheckState;
-        //                break;
-        //            case "Three":
-        //                checkBox3.Checked = item.CheckState;
-        //                break;
-        //        }
-        //    }
-        //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         private async void button1_Click(object sender, EventArgs e)
         {
@@ -155,7 +107,7 @@ namespace Arbitraje
             if (cbxGroup.SelectedValue == null || cbxBettingMarket.SelectedValue == null ||
                 string.IsNullOrWhiteSpace(lblRegiones.Text.Trim()) || _bmNames.Count == 0)
             {
-                MessageBox.Show("Error al cargar datos. Verifíque sus parámetros");
+                MessageBox.Show("Verifíque sus parámetros antes de realizar la búsqueda.");
                 return;
             }
 
@@ -168,39 +120,30 @@ namespace Arbitraje
             _listGames = await GetGames(baseUrl, apiKey, sport, lblRegiones.Text.Trim(), markets);
             if (_listGames.Count == 0)
             {
-                MessageBox.Show("Error al obtenrer lista de juegos");
+                MessageBox.Show("No se ha encontrado juegos disponibles para su búsqueda");
                 return;
             }
-
-            // filtramos games by bookmarket - obtiene todos los juegos cuyo bookmaker sea "xxx"
-            //var selectedBookmaker = _listBettingHouse.Find(x => x.bookmaker_key == lblRegiones.Text.Trim());
-            var gamesFromBookmaker = _listGames
-                .Select(game => new Game
-                {
-                    id = game.id,
-                    sport_key = game.sport_key,
-                    sport_title = game.sport_title,
-                    commence_time = game.commence_time,
-                    home_team = game.home_team,
-                    away_team = game.away_team,
-                    bookmakers = game.bookmakers
-                        .Where(bookmaker => bookmaker.key == _bmNames[0] || bookmaker.key == _bmNames[1])
-                        .ToList()
-                })
-                .Where(game => game.bookmakers.Any() && (game.commence_time >= dtpDateFrom.Value && game.commence_time <= dtpDateTo.Value))
-                .ToList();
-
+             
+            var gamesFromBookmaker = _listGames.Select(game =>
+            {
+                game.id = game.id;
+                game.sport_key = game.sport_key;
+                game.sport_title = game.sport_title;
+                game.commence_time = game.commence_time;
+                game.home_team = game.home_team;
+                game.away_team = game.away_team;
+                game.bookmakers = game.bookmakers.Where(bookmarker => _bmNames.Contains(bookmarker.key)).ToList();
+                return game;
+            })
+            .Where(game => game.bookmakers.Count > 0 && (game.commence_time >= dtpDateFrom.Value && game.commence_time <= dtpDateTo.Value))
+            .ToList();
+             
             // validaciones
             if (gamesFromBookmaker.Count == 0)
             {
                 txtResponse.AppendText("No se encontraron eventos para las opciones seleccionadas");
                 return;
             }
-
-
-
-
-
 
             //  Mostrar los juegos filtrados (todo)
             var eventos = new List<FootballEvent>();
@@ -243,7 +186,6 @@ namespace Arbitraje
             //txtResponse.AppendText("\n\n");
             //txtResponse.AppendText("\n\n");
 
-
             //// arbitraje para la misma casa
             //var arbitrageResults1 = await CalculateArbitrage1(eventos, 100m);
             //foreach (var result in arbitrageResults1) txtResponse.AppendText(result);
@@ -256,6 +198,63 @@ namespace Arbitraje
             //foreach (var result in arbitrageResults2) txtResponse.AppendText(result);
 
             //pnlLoading.Visible = false;
+             
+        }
+
+        private string RegionToCountry(string region)
+        {
+            var country = string.Empty;
+            return country = region.ToLower() switch
+            {
+                "us" => "Estados Unidos",
+                "eu" => "Unión Europea",
+                "au" => "Australia",
+                "uk" => "Reino Unido",
+                "cn" => "China",
+                "ru" => "Rusia",
+                "de" => "Alemania",
+                "fr" => "Francia",
+                "jp" => "Japón",
+                "br" => "Brasil",
+                "ca" => "Canadá",
+                "in" => "India",
+                "it" => "Italia",
+                "es" => "España",
+                "mx" => "México",
+                "kr" => "Corea del Sur",
+                "sa" => "Arabia Saudita",
+                "za" => "Sudáfrica",
+                "ar" => "Argentina",
+                "co" => "Colombia",
+                "ec" => "Ecuador",
+                "eg" => "Egipto",
+                _ => "Desconocido"
+            };
+        }
+
+        private void ObtenerChkBookmarkers()
+        {
+            _regiones.Clear();
+            lblRegiones.Text = string.Empty;
+            string bmKey;
+            string bmName;
+            string region;
+
+            // para agregar bookmarkers
+            foreach (var check in chkBookmarkers.CheckedItems)
+            {
+                bmName = check.ToString().Split('(')[0].Trim().ToLower();
+                region = check.ToString().Split('(')[1].Replace(')', ' ').Trim().ToLower();
+                bmKey = _listBettingHouse.Find(x => x.bookmaker.Trim().ToLower() == bmName && x.region_key.Trim().ToLower() == region).bookmaker_key.Trim().ToLower();
+
+                if (!_regiones.Contains(region))
+                {
+                    _regiones.Add(region);
+                    lblRegiones.Text += $"{region},";
+                }
+                if (!_bmNames.Contains(bmKey)) _bmNames.Add(bmKey);
+            }
+            if (lblRegiones.Text.EndsWith(',')) lblRegiones.Text = lblRegiones.Text.Substring(0, lblRegiones.Text.Length - 1);
         }
 
         private async Task<List<BettingHouse>> GetBettingHouses()
@@ -325,20 +324,6 @@ namespace Arbitraje
             return result;
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         private async Task<List<Game>> GetGames(string baseUrl, string apiKey, string sport, string regions, string markets, bool fromApi = false)
         {
             List<Game> result;
@@ -347,7 +332,7 @@ namespace Arbitraje
                 string jsonText;
                 if (fromApi)
                 {
-                    // Por API
+                    // Por API https://api.the-odds-api.com/v4/sports/soccer_conmebol_copa_libertadores/odds/?apiKey=3f415e1e00c15eea72cf0cf501ac225a&regions=eu&markets=h2h
                     var url = $"{baseUrl}/sports/{sport}/odds/?apiKey={apiKey}&regions={regions}&markets={markets}";
                     var response = await _client.GetAsync(url);
                     response.EnsureSuccessStatusCode();
@@ -370,24 +355,6 @@ namespace Arbitraje
             }
             return result;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         private async Task<string> ShowProbabilities(List<FootballEvent> bets)
         {
@@ -471,6 +438,10 @@ namespace Arbitraje
             results.Add("No se encontraron oportunidades de arbitraje.");
             return results;
         }
+
+         
+
+
 
 
 

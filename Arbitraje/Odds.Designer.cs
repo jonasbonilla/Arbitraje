@@ -36,6 +36,7 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             pnlArbitraje = new Panel();
+            cbxRegiones = new ComboBox();
             statusStrip1 = new StatusStrip();
             toolStripStatusLabel1 = new ToolStripStatusLabel();
             toolStripStatusLabel2 = new ToolStripStatusLabel();
@@ -129,6 +130,7 @@
             // 
             // pnlArbitraje
             // 
+            pnlArbitraje.Controls.Add(cbxRegiones);
             pnlArbitraje.Controls.Add(statusStrip1);
             pnlArbitraje.Controls.Add(cbxGroup);
             pnlArbitraje.Controls.Add(cbxBettingMarket);
@@ -149,6 +151,17 @@
             pnlArbitraje.Name = "pnlArbitraje";
             pnlArbitraje.Size = new Size(624, 440);
             pnlArbitraje.TabIndex = 7;
+            // 
+            // cbxRegiones
+            // 
+            cbxRegiones.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbxRegiones.FlatStyle = FlatStyle.Flat;
+            cbxRegiones.FormattingEnabled = true;
+            cbxRegiones.Location = new Point(93, 5);
+            cbxRegiones.Name = "cbxRegiones";
+            cbxRegiones.Size = new Size(207, 23);
+            cbxRegiones.TabIndex = 10;
+            cbxRegiones.SelectedIndexChanged += cbxRegiones_SelectedIndexChanged;
             // 
             // statusStrip1
             // 
@@ -194,15 +207,14 @@
             // 
             chkBookmarkers.BorderStyle = BorderStyle.FixedSingle;
             chkBookmarkers.FormattingEnabled = true;
-            chkBookmarkers.Location = new Point(0, 18);
+            chkBookmarkers.Location = new Point(0, 32);
             chkBookmarkers.Name = "chkBookmarkers";
             chkBookmarkers.ScrollAlwaysVisible = true;
-            chkBookmarkers.Size = new Size(299, 398);
+            chkBookmarkers.Size = new Size(300, 380);
             chkBookmarkers.TabIndex = 18;
             // 
             // dtpDateFrom
             // 
-            dtpDateFrom.Enabled = false;
             dtpDateFrom.Location = new Point(341, 12);
             dtpDateFrom.Name = "dtpDateFrom";
             dtpDateFrom.Size = new Size(271, 23);
@@ -251,7 +263,7 @@
             txtResponse.BorderStyle = BorderStyle.None;
             txtResponse.Location = new Point(305, 188);
             txtResponse.Name = "txtResponse";
-            txtResponse.Size = new Size(316, 228);
+            txtResponse.Size = new Size(316, 195);
             txtResponse.TabIndex = 10;
             txtResponse.Text = "";
             // 
@@ -266,7 +278,7 @@
             // 
             // lblBookmarkers
             // 
-            lblBookmarkers.Location = new Point(3, 3);
+            lblBookmarkers.Location = new Point(3, 8);
             lblBookmarkers.Name = "lblBookmarkers";
             lblBookmarkers.Size = new Size(84, 16);
             lblBookmarkers.TabIndex = 6;
@@ -285,7 +297,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(624, 441);
+            ClientSize = new Size(624, 440);
             Controls.Add(pnlArbitraje);
             Controls.Add(pnlLoading);
             ForeColor = Color.Black;
@@ -328,5 +340,6 @@
         private ToolStripStatusLabel toolStripStatusLabel1;
         private ToolStripStatusLabel toolStripStatusLabel2;
         private ToolStripProgressBar toolProgressBar;
+        private ComboBox cbxRegiones;
     }
 }
