@@ -1,5 +1,6 @@
 using Arbitraje.Models;
 using Newtonsoft.Json;
+using System.Drawing;
 
 namespace Arbitraje
 {
@@ -9,37 +10,48 @@ namespace Arbitraje
         string baseUrl = "https://api.the-odds-api.com/v4";
         HttpClient _client;
 
-        List<string> _regiones;
-
         List<Sport> _listSports;
         List<BettingHouse> _listBettingHouse;
         List<BettingMarkets> _listBettingMarkets;
         List<Game> _listGames;
 
+        List<string> _regiones;
+        List<string> _bmNames;
+
         public Odds()
         {
             InitializeComponent();
 
+            var hoy = DateTime.Now;
             _client = new HttpClient();
 
             _listSports = new List<Sport>();
             _listBettingHouse = new List<BettingHouse>();
             _listBettingMarkets = new List<BettingMarkets>();
             _listGames = new List<Game>();
-            _regiones = new List<string>();
 
-            // fecha
-            var hoy = DateTime.Now;
+            _regiones = new List<string>();
+            _bmNames = new List<string>();
+
             dtpDateFrom.Value = new DateTime(hoy.Year, hoy.Month, hoy.Day, 0, 0, 0);
+            dtpDateFrom.Enabled = false;
+
             dtpDateTo.Value = new DateTime(hoy.Year, hoy.Month, hoy.Day + 1, 0, 0, 0);
             pnlLoading.BringToFront();
+        }
+
+        private async void Form1_Load(object sender, EventArgs e)
+        {
+            pnlLoading.Visible = true;
+            await Inicializar();
+            pnlLoading.Visible = false;
         }
 
         private async Task Inicializar()
         {
             // obtener casas de apuesta
             _regiones.Clear();
-            _listBettingHouse = await GetBettingHouses();
+            _listBettingHouse = (await GetBettingHouses()).OrderBy(x => x.bookmaker_key).ThenBy(x => x.region_key).ToList();
             foreach (var bookmark in _listBettingHouse) chkBookmarkers.Items.Add(bookmark.DisplayName);
 
             // obtener marcadores
@@ -61,18 +73,6 @@ namespace Arbitraje
             cbxGroup.DataSource = grupos;
             cbxGroup.ValueMember = nameof(Sport.key);
             cbxGroup.DisplayMember = nameof(Sport.description);
-
-            // bookmarkers
-            //var bookmarkers = new List<CheckBoxItem>();
-            //foreach (var bookmark in _listBettingHouse) bookmarkers.Add(new CheckBoxItem { Text = bookmark.DisplayName });
-            //chkBookmarkes.AddCheckBoxItems(bookmarkers);
-        }
-
-        private async void Form1_Load(object sender, EventArgs e)
-        {
-            pnlLoading.Visible = true;
-            await Inicializar();
-            pnlLoading.Visible = false;
         }
 
         private void cbxGroup_SelectedValueChanged(object sender, EventArgs e)
@@ -88,15 +88,25 @@ namespace Arbitraje
         {
             _regiones.Clear();
             lblRegiones.Text = string.Empty;
-
+            string bmKey;
+            string bmName;
+            string region;
             foreach (var check in chkBookmarkers.CheckedItems)
             {
-                var reg = check.ToString().Substring(check.ToString().IndexOf('(') + 1, 2).ToLower();
-                if (!_regiones.Contains(reg)) _regiones.Add(reg);
+                bmName = check.ToString().Split('(')[0].Trim().ToLower();
+                region = check.ToString().Split('(')[1].Replace(')', ' ').Trim().ToLower();
+                bmKey = _listBettingHouse.Find(x => x.bookmaker.Trim().ToLower() == bmName && x.region_key.Trim().ToLower() == region).bookmaker_key.Trim().ToLower();
+
+                if (!_regiones.Contains(region))
+                {
+                    _regiones.Add(region);
+                    if (!_bmNames.Contains(bmKey)) _bmNames.Add(bmKey);
+                    lblRegiones.Text += $"{region},";
+                }
             }
-            foreach (var region in _regiones) lblRegiones.Text += $"{region},";
             if (lblRegiones.Text.EndsWith(',')) lblRegiones.Text = lblRegiones.Text.Substring(0, lblRegiones.Text.Length - 1);
         }
+
 
         // this message handler gets called when the user checks/unchecks an item the combo box
         //private void checkComboBox1_CheckStateChanged(object sender, EventArgs e)
@@ -142,7 +152,8 @@ namespace Arbitraje
         {
             ObtenerChkBookmarkers();
 
-            if (cbxGroup.SelectedValue == null || cbxBettingMarket.SelectedValue == null || string.IsNullOrWhiteSpace(lblRegiones.Text.Trim()))
+            if (cbxGroup.SelectedValue == null || cbxBettingMarket.SelectedValue == null ||
+                string.IsNullOrWhiteSpace(lblRegiones.Text.Trim()) || _bmNames.Count == 0)
             {
                 MessageBox.Show("Error al cargar datos. Verifíque sus parámetros");
                 return;
@@ -162,8 +173,7 @@ namespace Arbitraje
             }
 
             // filtramos games by bookmarket - obtiene todos los juegos cuyo bookmaker sea "xxx"
-
-            var selectedBookmaker = _listBettingHouse.Find(x => x.bookmaker_key == lblRegiones.Text.Trim());
+            //var selectedBookmaker = _listBettingHouse.Find(x => x.bookmaker_key == lblRegiones.Text.Trim());
             var gamesFromBookmaker = _listGames
                 .Select(game => new Game
                 {
@@ -174,7 +184,7 @@ namespace Arbitraje
                     home_team = game.home_team,
                     away_team = game.away_team,
                     bookmakers = game.bookmakers
-                        .Where(bookmaker => bookmaker.key == selectedBookmaker.bookmaker_key || bookmaker.key == "betfair" || bookmaker.key == "betsson")
+                        .Where(bookmaker => bookmaker.key == _bmNames[0] || bookmaker.key == _bmNames[1])
                         .ToList()
                 })
                 .Where(game => game.bookmakers.Any() && (game.commence_time >= dtpDateFrom.Value && game.commence_time <= dtpDateTo.Value))
@@ -186,6 +196,10 @@ namespace Arbitraje
                 txtResponse.AppendText("No se encontraron eventos para las opciones seleccionadas");
                 return;
             }
+
+
+
+
 
 
             //  Mostrar los juegos filtrados (todo)
@@ -202,20 +216,17 @@ namespace Arbitraje
                         AwayTeam = game.away_team.Trim(),
                         HomeOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == game.home_team.Trim()).price,
                         AwayOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == game.away_team.Trim()).price,
-                        //DrawOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == "Draw").price,
+                        DrawOdds = bookmaker.markets.Find(x => x.key == cbxBettingMarket.SelectedValue.ToString()).outcomes.Find(x => x.name == "Draw").price,
                     });
                 }
             }
 
-
-            // presento eventos
-            // Create an instance of the ArbitrageCalculator class
+            // presento eventos 
             foreach (FootballEvent evento in eventos)
             {
                 txtResponse.AppendText($"{evento.Bookmaker.ToUpper()} - {evento.CommenceTime.ToLongDateString()} / {evento.CommenceTime.ToLongTimeString()} \n");
                 txtResponse.AppendText($"{evento.HomeTeam} vs. {evento.AwayTeam}\n");
                 txtResponse.AppendText($"HomeOdds: {evento.HomeOdds}\n");
-                //txtResponse.AppendText($"DrawOdds: {evento.DrawOdds}\n");
                 txtResponse.AppendText($"AwayOdds: {evento.AwayOdds}\n");
                 txtResponse.AppendText("\n\n");
             }
@@ -460,9 +471,6 @@ namespace Arbitraje
             results.Add("No se encontraron oportunidades de arbitraje.");
             return results;
         }
-
-
-
 
 
 

@@ -36,6 +36,10 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             pnlArbitraje = new Panel();
+            statusStrip1 = new StatusStrip();
+            toolStripStatusLabel1 = new ToolStripStatusLabel();
+            toolStripStatusLabel2 = new ToolStripStatusLabel();
+            toolProgressBar = new ToolStripProgressBar();
             cbxBettingMarket = new ComboBox();
             chkBookmarkers = new CheckedListBox();
             dtpDateFrom = new DateTimePicker();
@@ -50,6 +54,7 @@
             pnlLoading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             pnlArbitraje.SuspendLayout();
+            statusStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // cbxSports
@@ -57,15 +62,15 @@
             cbxSports.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxSports.FlatStyle = FlatStyle.Flat;
             cbxSports.FormattingEnabled = true;
-            cbxSports.Location = new Point(367, 99);
+            cbxSports.Location = new Point(360, 99);
             cbxSports.Name = "cbxSports";
-            cbxSports.Size = new Size(245, 23);
+            cbxSports.Size = new Size(252, 23);
             cbxSports.TabIndex = 2;
             // 
             // lblSports
             // 
             lblSports.AutoSize = true;
-            lblSports.Location = new Point(312, 102);
+            lblSports.Location = new Point(305, 102);
             lblSports.Name = "lblSports";
             lblSports.Size = new Size(35, 15);
             lblSports.TabIndex = 3;
@@ -74,7 +79,7 @@
             // lblGroup
             // 
             lblGroup.AutoSize = true;
-            lblGroup.Location = new Point(312, 73);
+            lblGroup.Location = new Point(305, 73);
             lblGroup.Name = "lblGroup";
             lblGroup.Size = new Size(49, 15);
             lblGroup.TabIndex = 5;
@@ -85,9 +90,9 @@
             cbxGroup.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxGroup.FlatStyle = FlatStyle.Flat;
             cbxGroup.FormattingEnabled = true;
-            cbxGroup.Location = new Point(367, 70);
+            cbxGroup.Location = new Point(360, 70);
             cbxGroup.Name = "cbxGroup";
-            cbxGroup.Size = new Size(245, 23);
+            cbxGroup.Size = new Size(252, 23);
             cbxGroup.TabIndex = 4;
             cbxGroup.SelectedValueChanged += cbxGroup_SelectedValueChanged;
             // 
@@ -124,6 +129,7 @@
             // 
             // pnlArbitraje
             // 
+            pnlArbitraje.Controls.Add(statusStrip1);
             pnlArbitraje.Controls.Add(cbxGroup);
             pnlArbitraje.Controls.Add(cbxBettingMarket);
             pnlArbitraje.Controls.Add(cbxSports);
@@ -144,68 +150,97 @@
             pnlArbitraje.Size = new Size(624, 440);
             pnlArbitraje.TabIndex = 7;
             // 
+            // statusStrip1
+            // 
+            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1, toolStripStatusLabel2, toolProgressBar });
+            statusStrip1.Location = new Point(0, 418);
+            statusStrip1.Name = "statusStrip1";
+            statusStrip1.Size = new Size(624, 22);
+            statusStrip1.TabIndex = 20;
+            statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            toolStripStatusLabel1.Size = new Size(76, 17);
+            toolStripStatusLabel1.Text = "Arbitraje v1.0";
+            // 
+            // toolStripStatusLabel2
+            // 
+            toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            toolStripStatusLabel2.Size = new Size(431, 17);
+            toolStripStatusLabel2.Spring = true;
+            toolStripStatusLabel2.Text = "By Jonas";
+            // 
+            // toolProgressBar
+            // 
+            toolProgressBar.Name = "toolProgressBar";
+            toolProgressBar.Size = new Size(100, 16);
+            toolProgressBar.Step = 1;
+            toolProgressBar.Style = ProgressBarStyle.Continuous;
+            // 
             // cbxBettingMarket
             // 
             cbxBettingMarket.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxBettingMarket.Enabled = false;
             cbxBettingMarket.FlatStyle = FlatStyle.Flat;
             cbxBettingMarket.FormattingEnabled = true;
-            cbxBettingMarket.Location = new Point(367, 128);
+            cbxBettingMarket.Location = new Point(360, 128);
             cbxBettingMarket.Name = "cbxBettingMarket";
-            cbxBettingMarket.Size = new Size(245, 23);
+            cbxBettingMarket.Size = new Size(252, 23);
             cbxBettingMarket.TabIndex = 9;
             // 
             // chkBookmarkers
             // 
             chkBookmarkers.BorderStyle = BorderStyle.FixedSingle;
             chkBookmarkers.FormattingEnabled = true;
-            chkBookmarkers.Location = new Point(4, 18);
+            chkBookmarkers.Location = new Point(0, 18);
             chkBookmarkers.Name = "chkBookmarkers";
             chkBookmarkers.ScrollAlwaysVisible = true;
-            chkBookmarkers.Size = new Size(295, 128);
+            chkBookmarkers.Size = new Size(299, 398);
             chkBookmarkers.TabIndex = 18;
             // 
             // dtpDateFrom
             // 
             dtpDateFrom.Enabled = false;
-            dtpDateFrom.Location = new Point(350, 41);
+            dtpDateFrom.Location = new Point(341, 12);
             dtpDateFrom.Name = "dtpDateFrom";
-            dtpDateFrom.Size = new Size(262, 23);
+            dtpDateFrom.Size = new Size(271, 23);
             dtpDateFrom.TabIndex = 15;
             dtpDateFrom.Value = new DateTime(2023, 6, 5, 0, 0, 0, 0);
             // 
             // lblFrom
             // 
             lblFrom.AutoSize = true;
-            lblFrom.Location = new Point(317, 44);
+            lblFrom.Location = new Point(305, 47);
             lblFrom.Name = "lblFrom";
-            lblFrom.Size = new Size(27, 15);
+            lblFrom.Size = new Size(30, 15);
             lblFrom.TabIndex = 14;
-            lblFrom.Text = "Del:";
+            lblFrom.Text = "DEL:";
             // 
             // dtpDateTo
             // 
-            dtpDateTo.Location = new Point(350, 12);
+            dtpDateTo.Location = new Point(341, 41);
             dtpDateTo.Name = "dtpDateTo";
-            dtpDateTo.Size = new Size(262, 23);
+            dtpDateTo.Size = new Size(271, 23);
             dtpDateTo.TabIndex = 13;
             dtpDateTo.Value = new DateTime(2023, 6, 5, 23, 59, 59, 0);
             // 
             // lblDate
             // 
             lblDate.AutoSize = true;
-            lblDate.Location = new Point(317, 16);
+            lblDate.Location = new Point(305, 18);
             lblDate.Name = "lblDate";
-            lblDate.Size = new Size(21, 15);
+            lblDate.Size = new Size(24, 15);
             lblDate.TabIndex = 12;
-            lblDate.Text = "Al:";
+            lblDate.Text = "AL:";
             // 
             // btnConsultar
             // 
             btnConsultar.AutoSize = true;
-            btnConsultar.Location = new Point(12, 404);
+            btnConsultar.Location = new Point(305, 157);
             btnConsultar.Name = "btnConsultar";
-            btnConsultar.Size = new Size(600, 25);
+            btnConsultar.Size = new Size(307, 25);
             btnConsultar.TabIndex = 11;
             btnConsultar.Text = "CONSULTAR";
             btnConsultar.UseVisualStyleBackColor = true;
@@ -214,16 +249,16 @@
             // txtResponse
             // 
             txtResponse.BorderStyle = BorderStyle.None;
-            txtResponse.Location = new Point(12, 152);
+            txtResponse.Location = new Point(305, 188);
             txtResponse.Name = "txtResponse";
-            txtResponse.Size = new Size(600, 246);
+            txtResponse.Size = new Size(316, 228);
             txtResponse.TabIndex = 10;
             txtResponse.Text = "";
             // 
             // lblBettingMarket
             // 
             lblBettingMarket.AutoSize = true;
-            lblBettingMarket.Location = new Point(312, 131);
+            lblBettingMarket.Location = new Point(305, 131);
             lblBettingMarket.Name = "lblBettingMarket";
             lblBettingMarket.Size = new Size(55, 15);
             lblBettingMarket.TabIndex = 8;
@@ -231,17 +266,16 @@
             // 
             // lblBookmarkers
             // 
-            lblBookmarkers.AutoSize = true;
-            lblBookmarkers.Location = new Point(4, 4);
+            lblBookmarkers.Location = new Point(3, 3);
             lblBookmarkers.Name = "lblBookmarkers";
-            lblBookmarkers.Size = new Size(84, 15);
+            lblBookmarkers.Size = new Size(84, 16);
             lblBookmarkers.TabIndex = 6;
             lblBookmarkers.Text = "PLATAFORMA:";
             // 
             // lblRegiones
             // 
             lblRegiones.AutoSize = true;
-            lblRegiones.Location = new Point(94, 4);
+            lblRegiones.Location = new Point(164, 4);
             lblRegiones.Name = "lblRegiones";
             lblRegiones.Size = new Size(0, 15);
             lblRegiones.TabIndex = 19;
@@ -265,6 +299,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             pnlArbitraje.ResumeLayout(false);
             pnlArbitraje.PerformLayout();
+            statusStrip1.ResumeLayout(false);
+            statusStrip1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -288,5 +324,9 @@
         private Label lblFrom;
         private CheckedListBox chkBookmarkers;
         private Label lblRegiones;
+        private StatusStrip statusStrip1;
+        private ToolStripStatusLabel toolStripStatusLabel1;
+        private ToolStripStatusLabel toolStripStatusLabel2;
+        private ToolStripProgressBar toolProgressBar;
     }
 }
