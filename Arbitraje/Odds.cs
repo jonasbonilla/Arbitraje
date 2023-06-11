@@ -6,7 +6,7 @@ namespace Arbitraje
     public partial class Odds : Form
     {
         #region Variables / Objetos
-        string apiKey = "YOUR_API_KEY";
+        string apiKey = "3f415e1e00c15eea72cf0cf501ac225a";
         string baseUrl = "https://api.the-odds-api.com/v4";
         HttpClient _client;
 
