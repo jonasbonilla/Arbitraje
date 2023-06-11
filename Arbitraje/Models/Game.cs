@@ -12,7 +12,7 @@
     }
 
     // arbitrage
-    public class FootballEvent
+    public class SportEvent
     {
         public string Bookmaker { get; set; }
         public DateTime CommenceTime { get; set; }

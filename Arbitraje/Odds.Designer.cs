@@ -175,13 +175,13 @@
             // toolStripStatusLabel1
             // 
             toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            toolStripStatusLabel1.Size = new Size(76, 17);
-            toolStripStatusLabel1.Text = "Arbitraje v1.0";
+            toolStripStatusLabel1.Size = new Size(102, 17);
+            toolStripStatusLabel1.Text = "The Odds Api v1.0";
             // 
             // toolStripStatusLabel2
             // 
             toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            toolStripStatusLabel2.Size = new Size(431, 17);
+            toolStripStatusLabel2.Size = new Size(405, 17);
             toolStripStatusLabel2.Spring = true;
             toolStripStatusLabel2.Text = "By Jonas";
             // 
@@ -224,7 +224,7 @@
             // lblFrom
             // 
             lblFrom.AutoSize = true;
-            lblFrom.Location = new Point(305, 47);
+            lblFrom.Location = new Point(305, 18);
             lblFrom.Name = "lblFrom";
             lblFrom.Size = new Size(30, 15);
             lblFrom.TabIndex = 14;
@@ -241,7 +241,7 @@
             // lblDate
             // 
             lblDate.AutoSize = true;
-            lblDate.Location = new Point(305, 18);
+            lblDate.Location = new Point(305, 47);
             lblDate.Name = "lblDate";
             lblDate.Size = new Size(24, 15);
             lblDate.TabIndex = 12;
@@ -250,7 +250,7 @@
             // btnConsultar
             // 
             btnConsultar.AutoSize = true;
-            btnConsultar.Location = new Point(305, 157);
+            btnConsultar.Location = new Point(305, 154);
             btnConsultar.Name = "btnConsultar";
             btnConsultar.Size = new Size(307, 25);
             btnConsultar.TabIndex = 11;
@@ -261,9 +261,9 @@
             // txtResponse
             // 
             txtResponse.BorderStyle = BorderStyle.None;
-            txtResponse.Location = new Point(305, 188);
+            txtResponse.Location = new Point(305, 181);
             txtResponse.Name = "txtResponse";
-            txtResponse.Size = new Size(316, 195);
+            txtResponse.Size = new Size(316, 234);
             txtResponse.TabIndex = 10;
             txtResponse.Text = "";
             // 
@@ -304,7 +304,7 @@
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "Odds";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "APUESTAS DEPORTIVAS - ARBITRAJE v1.0";
+            Text = "The Odds Api v1.0";
             Load += Form1_Load;
             pnlLoading.ResumeLayout(false);
             pnlLoading.PerformLayout();
